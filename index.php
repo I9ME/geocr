@@ -13,15 +13,9 @@
 get_header(); ?>
 <!-- teste -->
 <main id="main" class="SiteMain Site-main" role="main">
-	<?php  get_template_part('template-parts/plugins/plugin','lightbox'); ?>
+	<?php get_template_part('template-parts/plugins/plugin','lightbox'); ?>
 	<?php get_template_part('template-parts/page/intro','page'); ?>
-	<?php get_template_part('template-parts/franquia/franquia','sobre'); ?>
-	<?php get_template_part('template-parts/videos/videos','section'); ?>
-	<?php get_template_part('template-parts/opinioes/opinioes','section'); ?>
-	<?php get_template_part('template-parts/na-midia/namidia','section'); ?>
-	<?php get_template_part('template-parts/barneys/barneys','section'); ?>
-	<?php get_template_part('template-parts/seja-franqueado/seja-franqueado','section'); ?>
-	<?php get_template_part('template-parts/newsletter/newsletter','section'); ?>
+	<?php // get_template_part('template-parts/franquia/franquia','sobre'); ?>
 </main><!-- #main -->
 
 
