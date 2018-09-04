@@ -660,3 +660,22 @@
 		display: none !important;
 	}
 }
+
+
+//CUSTOMIZER GEOCRON
+
+.Navigation{
+	&-items{
+		&-item{
+			&-link{
+				color: $color_1;
+				letter-spacing: 1px;
+				font-size: 13px;
+				text-transform: uppercase;
+				&:hover{
+					color: $color_3;
+				}
+			}
+		}
+	}
+}

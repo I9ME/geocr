@@ -149,7 +149,7 @@ gulp.task('scripts', function() {
 
 //Imagens minificadas
 gulp.task('images', function() {
-    return gulp.src('./_src/images/*.png')
+    return gulp.src('./_src/images/*.*')
         .pipe(changed( './assets/images')).pipe(
             imagemin({
                 optimizationLevel: 5,
