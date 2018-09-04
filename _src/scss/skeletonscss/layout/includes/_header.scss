@@ -1,8 +1,9 @@
 .Site-header{
 	height: auto;
-	background: $color_1;
+	background: rgba(0,0,0,0.7);
 	position: fixed;
-	
+	overflow:hidden;
+	clear: both;
 	padding-top: $v_spacing / 4;
 	padding-bottom: $v_spacing / 4;
 
@@ -28,7 +29,6 @@
 
 
 	@media screen and (min-width: $break-sm){
-		background: none;
 
 		padding-top: $v_spacing / 2;
 		padding-bottom: $v_spacing / 2;

@@ -903,8 +903,15 @@
 	// ===================
 	// CUSTOMIZER
 	// ===================
-
-
+	&--intro{
+		& .Section{
+			&-content{
+				&-title{
+					font-size: 40px;
+				}
+			}
+		}
+	}
 	// end class .Section
 	}
 

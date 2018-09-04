@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*s
+/*
 Main Style site ZoeWeb
 Author: Diogo Soares | I9ME WEB & DESIGN
 Author URI: http://www.i9me.com.br
@@ -49,7 +49,7 @@ s
  */
 :root {
   color: #555555;
-  font-family: "Raleway";
+  font-family: "Source Sans Pro";
   font-size: 15px;
   font-weight: normal;
 }
@@ -1034,10 +1034,16 @@ strong {
   color: #f3ad13 !important;
 }
 
+.Section--intro .Section-content-title {
+  font-size: 40px;
+}
+
 .Site-header {
   height: auto;
-  background: #FFFFFF;
+  background: rgba(0, 0, 0, 0.7);
   position: fixed;
+  overflow: hidden;
+  clear: both;
   padding-top: 9.375px;
   padding-bottom: 9.375px;
 }
@@ -1067,7 +1073,6 @@ strong {
 
 @media screen and (min-width: 768px) {
   .Site-header {
-    background: none;
     padding-top: 18.75px;
     padding-bottom: 18.75px;
   }
@@ -1083,31 +1088,31 @@ strong {
   }
 }
 
-.Site:after {
-  position: fixed;
-  display: block;
-  width: 100%;
-  height: 125px;
-  z-index: 19;
-  content: "";
-  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0));
-  top: 0px;
-  left: 0px;
-  transition: all 0.25s;
-  opacity: 0;
-}
-
-@media screen and (min-width: 768px) {
-  .Site:after {
-    display: none;
-  }
-}
-
 .Intro--home {
   padding-top: 100px;
   /* background-image: url('../images/Intro--bg--mobile.png'); */
   background-position: top center;
   background-size: cover;
+}
+
+@media screen and (min-width: 960px) {
+  .Intro--page {
+    background-image: url("../images/geobanner.jpg");
+    background-size: cover;
+  }
+}
+
+.Intro--background {
+  background-repeat: no-repeat;
+  background-color: #9d0a0e;
+}
+
+@media screen and (min-width: 960px) {
+  .Intro--background {
+    background-size: cover;
+    background-image: url("../images/geobanner.jpg");
+    background-attachment: fixed;
+  }
 }
 
 .u-hasSideBar.SiteMain .SiteMain-sideBar .Section-header i svg {
@@ -2562,28 +2567,6 @@ Padding Horizontal
   line-height: normal;
 }
 
-/* 
-@font-face {
-	font-family: 'Cambria';
-	src: url('../../assets/fonts/Cambria.eot');
-	src: url('../../assets/fonts/Cambria.woff') format('woff'),
-		url('../../assets/fonts/Cambria.ttf') format('truetype'),
-		url('../../assets/fonts/Cambria.svg#Cambria') format('svg'), 
-		url('../../assets/fonts/Cambria.eot?#iefix') format('embedded-opentype');
-	font-weight: normal;
-	font-style: normal;
-} */
-/* 
-@font-face {
-	font-family: 'Cambria';
-	src: url('http://pizzavignoli.com.br/wp-content/uploads/2016/06/Cambria.eot');
-	src: url('http://pizzavignoli.com.br/wp-content/uploads/2016/06/Cambria.woff') format('woff'),
-		url('http://pizzavignoli.com.br/wp-content/uploads/2016/06/Cambria.ttf') format('truetype'),
-		url('http://pizzavignoli.com.br/wp-content/uploads/2016/06/Cambria.svg#Cambria') format('svg'), 
-		url('http://pizzavignoli.com.br/wp-content/uploads/2016/06/Cambria.eot?#iefix') format('embedded-opentype');
-	font-weight: normal;
-	font-style: normal;
-} */
 /**
  * Indicate that interaction will result in an (in)action.
  */
@@ -3808,6 +3791,17 @@ th.u-isShown {
   .ElementImg--bgNav--menu {
     display: none !important;
   }
+}
+
+.Navigation-items-item-link {
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.Navigation-items-item-link:hover {
+  color: #f3ad13;
 }
 
 /* @custom-media --lg-viewport (min-width: 960px);
@@ -6107,7 +6101,7 @@ select {
   padding: 0 5px;
   min-height: 50px;
   font-size: 15px;
-  font-family: "Raleway";
+  font-family: "Source Sans Pro";
   outline: none !important;
 }
 
@@ -6115,11 +6109,11 @@ input[type="submit"] {
   cursor: pointer;
   font-size: 15px;
   font-weight: bold;
-  font-family: "Raleway";
+  font-family: "Source Sans Pro";
 }
 
 .Form {
-  font-family: "Raleway";
+  font-family: "Source Sans Pro";
 }
 
 .Form-border--0 {

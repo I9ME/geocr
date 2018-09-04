@@ -23,12 +23,13 @@
 
 	
 <div id="page" class="Site">
-	<header id="masthead" class="Site-header u-sizeFull u-paddingVertical u-lineHeight0 is-animating u-zIndex20">
-		<div class="u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween">
+	<header id="masthead" class="Site-header u-sizeFull u-paddingVertical u-zIndex10">
+		<div class="u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
 			<!-- Logo do site -->
 			<div class="Site-header-branding u-positionRelative u-displayInlineBlock"> 
 				<?php  get_template_part('template-parts/header/header','branding');?>
 			</div>
+			
 			<!-- Menu de Navegação -->
 				<?php  get_template_part('template-parts/header/header','navigation');?>
 			
