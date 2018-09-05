@@ -17,21 +17,14 @@
 
 	&-header{
 		&-title{
-			font-size: $font_size_title_section_m;
-			font-weight: normal;
-			@media screen and (min-width: $break-sm){
-				font-size: $font_size_title_section;
-			}
 			&--beforeTitleLine{
 				position: relative;
 				&:before{
 					position: absolute;
 					display: block;
-					left: 50%;
-					transform: translateX(-50%);
 					bottom:0px;
 					width: $sizeColumns_px * 1.5;
-					height: 1px;
+					height: 2px;
 					content: "";
 				}
 			}
@@ -904,19 +897,95 @@
 	// CUSTOMIZER
 	// ===================
 	&--intro{
+		box-shadow: 0px 0px 1px 1000px black;
 		& .Section{
-			&-content{
+			&-header{
 				&-title{
-					font-size: 40px;
+					font-size: 30px !important;
+					font-weight: bolder;
+				}
+				&-resume{
+					text-transform: uppercase;
+					font-size: 15px;
+				}
+			}
+		}
+	}
+	&--services{
+		& .Section{
+			&-header{
+				&-title{
+					text-transform: uppercase;
+					padding-bottom: 7px;
+					color: $color_12;
+					letter-spacing: 1px;
+					font-size: 15px;
+					&--beforeTitleLine{
+						&:before{
+							left: 50%;
+							transform: translateX(-50%);
+							width: 65px;
+							background:$color_3;
+						}
+					}
+				}
+
+			}
+			&-items{
+				&-item{
+					&-title{
+						color: $color_3;
+						text-transform: uppercase;
+					}
+				}
+			}
+		}
+
+	}
+	&--sobre{
+		background:$color_12;
+		& .Section{
+			&-header{
+				&-title{
+					text-transform: uppercase;
+					padding-bottom: 7px;
+					color: $color_1;
+					letter-spacing: 1px;
+					font-size: 15px;
+					&--beforeTitleLine{
+						&:before{
+							left: 50%;
+							transform: translateX(-50%);
+							width: 65px;
+							background:$color_1;
+						}
+					}
+				}
+				&-subtitle{
+					color: $color_1;
+					font-size: 18px;
+					font-weight: normal;
+					font-style: italic;
+				}
+			}
+			&-items{
+				&-item{
+					&-title{
+						color: $color_1;
+					}
+					&-resume{
+						color: $color_1;
+					}
+				}
+			}
+			@media screen and (min-width: $break-sm){
+				&-items{
+					&-item{
+						margin-bottom: 0px;
+					}
 				}
 			}
 		}
 	}
 	// end class .Section
-	}
-
-
-
-	 
-
-			
+	}			

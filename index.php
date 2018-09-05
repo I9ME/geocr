@@ -15,7 +15,9 @@ get_header(); ?>
 <main id="main" class="SiteMain Site-main" role="main">
 	<?php // get_template_part('template-parts/plugins/plugin','lightbox'); ?>
 	<?php get_template_part('template-parts/page/intro','page'); ?>
-	<?php // get_template_part('template-parts/franquia/franquia','sobre'); ?>
+	<?php get_template_part('template-parts/services/section','services') ?>
+	<?php get_template_part('template-parts/sobre/section','sobre') ?>
+	<?php get_template_part('template-parts/clientes/section','clientes') ?>
 </main><!-- #main -->
 
 

@@ -1,4 +1,4 @@
-<nav class="Navigation u-size12of24 u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+<nav class="Navigation u-size12of24 u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-onlyDesktop">
 	<ul class="Navigation-items u-size24of24 u-displayFlex u-flexAlignItemsCenter u-flexJustifyContentSpaceBetween">
 		<li class="Navigation-items-item">
 			<a href="#" class="Navigation-items-item-link u-size4of24 is-animating">Serviços</a>

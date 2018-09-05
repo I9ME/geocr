@@ -23,7 +23,7 @@
 
 	
 <div id="page" class="Site">
-	<header id="masthead" class="Site-header u-sizeFull u-paddingVertical u-zIndex10">
+	<header id="masthead" class="Site-header u-sizeFull u-zIndex10 is-animating">
 		<div class="u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
 			<!-- Logo do site -->
 			<div class="Site-header-branding u-positionRelative u-displayInlineBlock"> 
