@@ -30,7 +30,7 @@
 	&--background{
 		background-repeat: no-repeat;
 		//background-image: url('../images/Intro-revendedores-roupa-em-atacado--mobile.png');
-		background-color: $color_2;
+		background: linear-gradient(to right bottom, $color_12, $color_21);
 		@media screen and (min-width: $break-md){
 			background-size: cover;
 			background-image: url('../images/geobanner.jpg');

@@ -26,7 +26,7 @@
 	<header id="masthead" class="Site-header u-sizeFull u-zIndex10 is-animating">
 		<div class="u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
 			<!-- Logo do site -->
-			<div class="Site-header-branding u-positionRelative u-displayInlineBlock"> 
+			<div class="u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-sizeFull"> 
 				<?php  get_template_part('template-parts/header/header','branding');?>
 			</div>
 			

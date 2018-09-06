@@ -545,16 +545,18 @@ strong {
 }
 
 .Section--style1 .Section-header-title {
-  color: #555555;
+  text-transform: uppercase;
+  padding-bottom: 7px;
+  color: #008c45;
+  letter-spacing: 1px;
+  font-size: 15px;
 }
 
 .Section--style1 .Section-header-title--beforeTitleLine:before {
-  background: #555555;
-}
-
-.Section--style1 .Section-header-subtitle {
-  color: #555555;
-  font-size: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 65px;
+  background: #f3ad13;
 }
 
 .Section--style1 .ReadMore {
@@ -1035,21 +1037,6 @@ strong {
   font-size: 15px;
 }
 
-.Section--services .Section-header-title {
-  text-transform: uppercase;
-  padding-bottom: 7px;
-  color: #008c45;
-  letter-spacing: 1px;
-  font-size: 15px;
-}
-
-.Section--services .Section-header-title--beforeTitleLine:before {
-  left: 50%;
-  transform: translateX(-50%);
-  width: 65px;
-  background: #f3ad13;
-}
-
 .Section--services .Section-items-item-title {
   color: #f3ad13;
   text-transform: uppercase;
@@ -1093,6 +1080,65 @@ strong {
   .Section--sobre .Section-items-item {
     margin-bottom: 0px;
   }
+}
+
+.Section--orcamento .Button {
+  background: #008c45;
+  color: #FFFFFF;
+}
+
+.Section--orcamento .Button--border {
+  border-color: rgba(0, 0, 0, 0);
+}
+
+.Section--orcamento .Button--border.hover:hover {
+  background: #f3ad13;
+  border-color: #f3ad13;
+  color: #9d0a0e;
+}
+
+.Section--footer {
+  background: #f3ad13;
+}
+
+.Section--footer .Section-items-item-header {
+  color: #000000;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.Section--footer .Section-items-item-list {
+  color: #000000;
+}
+
+.Section--footer .Section-items-item-list-point {
+  list-style: initial;
+}
+
+.Section--footer .Form-input {
+  border: 3px solid black;
+  color: #000000;
+}
+
+.Section--footer .Form-input:-webkit-placeholder {
+  color: #FFFFFF;
+}
+
+.Section--footer .Button {
+  background: rgba(0, 0, 0, 0);
+  color: #000000;
+  font-weight: lighter;
+}
+
+.Section--footer .Button--border {
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.Section--footer .Button--border.hover:hover {
+  background: #f3ad13;
+  border-color: #f3ad13;
+  color: #9d0a0e;
 }
 
 .Site-header {
@@ -1157,7 +1203,7 @@ strong {
 
 .Intro--background {
   background-repeat: no-repeat;
-  background-color: #9d0a0e;
+  background: linear-gradient(to right bottom, #008c45, #3bcaa2);
 }
 
 @media screen and (min-width: 960px) {
@@ -5824,6 +5870,13 @@ th.u-isShown {
   height: 158px;
 }
 
+.FigureIcon--geo {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -168px;
+  width: 8px;
+  height: 10px;
+}
+
 .FigureIcon--hidrogeologia {
   background-image: url(../images/sprite.png);
   background-position: -125px 0px;
@@ -5836,6 +5889,20 @@ th.u-isShown {
   background-position: -250px 0px;
   width: 125px;
   height: 158px;
+}
+
+.FigureIcon--mail {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -158px;
+  width: 10px;
+  height: 10px;
+}
+
+.FigureIcon--phone {
+  background-image: url(../images/sprite.png);
+  background-position: -10px -158px;
+  width: 11px;
+  height: 9px;
 }
 
 /* 

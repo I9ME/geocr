@@ -448,6 +448,53 @@ $('#historia-carousel').owlCarousel({
     }
 })
 
+$('.services-carousel').owlCarousel({
+    loop:true,
+    margin:50,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        600:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        1000:{
+            items:2,
+            loop:false,
+            dots:false
+        }
+    }
+})
+
+
+$('#clientes-carousel').owlCarousel({
+    loop:true,
+    margin:5,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        600:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        1000:{
+            items:4,
+            loop:false,
+            dots:false
+        }
+    }
+})
+
 
 
 

@@ -393,18 +393,24 @@
 	// =============
 	&--style1{ //<section> style section
 		color: $color_10;
-		& .Section-header{
-			&-title{
-				color: $color_10;
-				&--beforeTitleLine{
-					&:before{
-						background: $color_10;
+		& .Section{
+			&-header{
+				&-title{
+					text-transform: uppercase;
+					padding-bottom: 7px;
+					color: $color_12;
+					letter-spacing: 1px;
+					font-size: 15px;
+					&--beforeTitleLine{
+						&:before{
+							left: 50%;
+							transform: translateX(-50%);
+							width: 65px;
+							background:$color_3;
+						}
 					}
 				}
-			}
-			&-subtitle{
-				color: $color_10;
-				font-size: 20px;
+
 			}
 		}
 	
@@ -913,24 +919,6 @@
 	}
 	&--services{
 		& .Section{
-			&-header{
-				&-title{
-					text-transform: uppercase;
-					padding-bottom: 7px;
-					color: $color_12;
-					letter-spacing: 1px;
-					font-size: 15px;
-					&--beforeTitleLine{
-						&:before{
-							left: 50%;
-							transform: translateX(-50%);
-							width: 65px;
-							background:$color_3;
-						}
-					}
-				}
-
-			}
 			&-items{
 				&-item{
 					&-title{
@@ -982,6 +970,72 @@
 				&-items{
 					&-item{
 						margin-bottom: 0px;
+					}
+				}
+			}
+		}
+	}
+
+	&--clientes{
+		& .Section{}
+	}
+
+	&--orcamento{
+		& .Section{
+		}
+		.Button{
+			background: $color_12;
+			color: $color_1;
+			&--border{
+				border-color: rgba(0,0,0,0);
+				&.hover{
+					&:hover{
+						background: $color_3;
+						border-color: $color_3;
+						color: $color_2;
+					}
+				}
+			}
+		}
+	}
+	&--footer{
+		background: $color_3;
+		& .Section{
+			&-items{
+				&-item{
+					&-header{
+						color: $color_11;
+						text-transform: uppercase;
+						font-weight: bold;
+					}
+					&-list{
+						color: $color_11;
+						&-point{
+							list-style: initial;
+						}
+					}
+				}
+			}
+		}
+		& .Form-input{
+			border: 3px solid black;
+			color: $color_11;
+			&:-webkit-placeholder{
+				color: $color_1;
+			}
+		}
+		.Button{
+			background: rgba(0,0,0,0);
+			color: $color_11;
+			font-weight: lighter;
+			&--border{
+				border:1px solid;
+				border-color: $color_11;
+				&.hover{
+					&:hover{
+						background: $color_3;
+						border-color: $color_3;
+						color: $color_2;
 					}
 				}
 			}

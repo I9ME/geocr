@@ -8,7 +8,7 @@
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
 		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingTop">
 			<li class="Section-items-item u-alignCenter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter u-size8of24 u-marginBottom">
-				<figure class="Section-items-item-figure u-paddingBottom--inter--half">
+				<figure class="Section-items-item-figure">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/circle.png">
 				</figure>
 				<h4 class="Section-items-item-title u-marginBottom--inter--half">QUALIDADE</h4>

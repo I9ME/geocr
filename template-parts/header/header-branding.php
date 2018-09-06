@@ -10,4 +10,4 @@
 
 ?>
 
-<img src="<?php echo get_template_directory_uri() ?>/assets/images/geologo.png">
+<img src="<?php echo get_template_directory_uri() ?>/assets/images/geologo-2.png">
