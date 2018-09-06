@@ -1,11 +1,11 @@
 <section class="Section Section--style1 Section--footer u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
-	<header class="Section-header u-displayFlex u-flexJustifyContentCenter">
+	<header class="Section-header u-displayFlex u-flexJustifyContentCenter u-paddingBottom--inter">
 		<img src="<?php echo get_template_directory_uri()?>/assets/images/geocronblack.png">
 	</header>
 	<div class="Section-content">
 		<ul class="Section-items u-marginVertical">
 			<li class="Section-items-item invest-geotecnica u-paddingHorizontal--inter">
-				<header class="Section-items-item-header">
+				<header class="Section-items-item-header u-paddingBottom--inter--half">
 					<h4 class="Section-items-item-header-title">Investigação Geotécnica</h4>
 				</header>
 				<ul class="Section-items-item-list">
@@ -23,7 +23,7 @@
 			</li>
 			<li class="Section-items-item hidrogeologia-e-estudos-ambientais u-paddingHorizontal--inter">
 				<div class="u-size12of24 u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header">
+					<header class="Section-items-item-header u-paddingBottom--inter--half">
 						<h4 class="Section-items-item-header-title">Hidrogeologia</h4>
 					</header>
 					<ul class="Section-items-item-list">
@@ -35,7 +35,7 @@
 					</ul>
 				</div>
 				<div class="u-size12of24 u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header">
+					<header class="Section-items-item-header u-paddingBottom--inter--half">
 						<h4 class="Section-items-item-header-title">Estudos Ambientais</h4>
 					</header>
 					<ul class="Section-items-item-list">
@@ -46,7 +46,7 @@
 				</div>
 			</li>
 			<li class="Section-items-item orcamento u-paddingHorizontal--inter">
-				<header class="Section-items-item-header">
+				<header class="Section-items-item-header u-paddingBottom--inter--half">
 					<h4 class="Section-items-item-header-title">Orçamento</h4>
 				</header>
 				<form class="Form Form--style1 Form--footerGeocron">
@@ -67,7 +67,7 @@
 				</form>
 			</li>
 			<li class="Section-items-item contato u-paddingHorizontal--inter">
-				<header class="Section-items-item-header">
+				<header class="Section-items-item-header u-paddingBottom--inter--half">
 					<h4 class="Section-items-item-header-title">Contato</h4>
 				</header>
 				<div class="u-displayFlex">

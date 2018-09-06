@@ -14,7 +14,7 @@
 				</div>
 				<div class="Form-line">
 					<div class="Form-row u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-flexDirectionColumn u-flexSwitchRow">
-						<input type="submit" value="ENVIAR" name="orcamento_submit" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter Button--mediumSize hover is-animating u-size6of24 u-borderRadius10 u-marginHorizontal--inter">
+						<input type="submit" value="ENVIAR" name="orcamento_submit" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow u-flexAlignItemsCenter u-justifyContentCenter Button--mediumSize hover is-animating u-size4of24 u-borderRadius10 u-marginHorizontal--inter">
 					</div>
 				</div>
 			</fieldset>
