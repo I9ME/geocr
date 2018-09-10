@@ -906,6 +906,9 @@
 		box-shadow: 0px 0px 1px 1000px black;
 		& .Section{
 			&-header{
+				@media screen and (min-width: $break-md){
+					padding-left: 8%;
+				}
 				&-title{
 					font-size: 30px !important;
 					font-weight: bolder;
@@ -921,7 +924,14 @@
 		& .Section{
 			&-items{
 				&-item{
+					@media screen and (min-width: $break-md){
+						padding-left: 5%;
+						padding-right: 5%;
+					}
 					&-title{
+						@media screen and (min-width: $break-md){
+							text-align: left;
+						}
 						color: $color_3;
 						text-transform: uppercase;
 					}
@@ -963,6 +973,7 @@
 					}
 					&-resume{
 						color: $color_1;
+						width: 50% !important;
 					}
 				}
 			}
@@ -977,7 +988,7 @@
 	}
 
 	&--clientes{
-		& .Section{}
+
 	}
 
 	&--orcamento{
@@ -1001,15 +1012,43 @@
 	&--footer{
 		background: $color_3;
 		& .Section{
+			&-header{
+				@media screen and (min-width: $break-md){
+					justify-content: flex-start;
+					padding-left: 10%;
+				}
+			}
 			&-items{
+				@media screen and (min-width: $break-md){
+					justify-content: space-around !important;
+				}
 				&-item{
+					@media screen and (min-width: $break-md){
+							padding-top: 0px !important;
+							padding-bottom: 0px !important;
+
+						}
+					&-subtitle{
+						color: $color_11;
+						font-weight: bold;
+					}
+					&-resume{
+						color: $color_11;
+						font-weight: 300;
+					}
 					&-header{
 						color: $color_11;
 						text-transform: uppercase;
 						font-weight: bold;
 					}
+					&-content{
+						@media screen and (min-width: $break-md){
+							padding-top: 0px !important;
+						}
+					}
 					&-list{
 						color: $color_11;
+						font-weight: 300;
 						&-point{
 							list-style: initial;
 						}

@@ -1027,6 +1027,12 @@ strong {
   box-shadow: 0px 0px 1px 1000px black;
 }
 
+@media screen and (min-width: 960px) {
+  .Section--intro .Section-header {
+    padding-left: 8%;
+  }
+}
+
 .Section--intro .Section-header-title {
   font-size: 30px !important;
   font-weight: bolder;
@@ -1037,9 +1043,22 @@ strong {
   font-size: 15px;
 }
 
+@media screen and (min-width: 960px) {
+  .Section--services .Section-items-item {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
+
 .Section--services .Section-items-item-title {
   color: #f3ad13;
   text-transform: uppercase;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--services .Section-items-item-title {
+    text-align: left;
+  }
 }
 
 .Section--sobre {
@@ -1074,6 +1093,7 @@ strong {
 
 .Section--sobre .Section-items-item-resume {
   color: #FFFFFF;
+  width: 50% !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -1101,14 +1121,51 @@ strong {
   background: #f3ad13;
 }
 
+@media screen and (min-width: 960px) {
+  .Section--footer .Section-header {
+    justify-content: flex-start;
+    padding-left: 10%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--footer .Section-items {
+    justify-content: space-around !important;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--footer .Section-items-item {
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
+  }
+}
+
+.Section--footer .Section-items-item-subtitle {
+  color: #000000;
+  font-weight: bold;
+}
+
+.Section--footer .Section-items-item-resume {
+  color: #000000;
+  font-weight: 300;
+}
+
 .Section--footer .Section-items-item-header {
   color: #000000;
   text-transform: uppercase;
   font-weight: bold;
 }
 
+@media screen and (min-width: 960px) {
+  .Section--footer .Section-items-item-content {
+    padding-top: 0px !important;
+  }
+}
+
 .Section--footer .Section-items-item-list {
   color: #000000;
+  font-weight: 300;
 }
 
 .Section--footer .Section-items-item-list-point {
@@ -1149,6 +1206,17 @@ strong {
   clear: both;
   padding-top: 9.375px;
   padding-bottom: 9.375px;
+}
+
+.Site-header-content-logo {
+  width: 100%;
+}
+
+@media screen and (min-width: 960px) {
+  .Site-header-content-logo {
+    width: 0% !important;
+    padding-left: 5%;
+  }
 }
 
 .Site-header-branding {
@@ -1661,6 +1729,13 @@ strong {
 
 .u-borderBottomLight {
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+@media screen and (min-width: 768px) {
+  .clientes-carousel .owl-item {
+    display: flex !important;
+    justify-content: center !important;
+  }
 }
 
 @media screen and (max-width: 768px) {

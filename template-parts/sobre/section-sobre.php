@@ -12,21 +12,21 @@
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/circle.png">
 				</figure>
 				<h4 class="Section-items-item-title u-marginBottom--inter--half">QUALIDADE</h4>
-				<p class="Section-items-item-resume u-size10of24">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
+				<p class="Section-items-item-resume">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
 			</li>
 			<li class="Section-items-item u-alignCenter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter u-size8of24 u-marginBottom">
 				<figure class="Section-items-item-figure u-paddingBottom--inter--half">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/circle.png">
 				</figure>
 				<h4 class="Section-items-item-title u-marginBottom--inter--half">QUALIDADE</h4>
-				<p class="Section-items-item-resume u-size10of24">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
+				<p class="Section-items-item-resume">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
 			</li>
 			<li class="Section-items-item u-alignCenter u-displayFlex u-flexDirectionColumn u-flexAlignItemsCenter u-size8of24 u-marginBottom">
 				<figure class="Section-items-item-figure u-paddingBottom--inter--half">
 					<img src="<?php echo get_template_directory_uri() ?>/assets/images/circle.png">
 				</figure>
 				<h4 class="Section-items-item-title u-marginBottom--inter--half">QUALIDADE</h4>
-				<p class="Section-items-item-resume u-size10of24">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
+				<p class="Section-items-item-resume">Lorem ipsum sit dolor amet sid dolor ametist ruby Lorena.</p>
 			</li>
 		</ul>
 	</div>

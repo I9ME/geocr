@@ -474,11 +474,12 @@ $('.services-carousel').owlCarousel({
 
 $('#clientes-carousel').owlCarousel({
     loop:true,
-    margin:5,
+    margin:0,
     responsiveClass:true,
     responsive:{
         0:{
             items:1,
+            margin:25,
             nav:false,
             dots:false
         },

@@ -6,7 +6,15 @@
 	clear: both;
 	padding-top: $v_spacing / 4;
 	padding-bottom: $v_spacing / 4;
-
+	&-content{
+		&-logo{
+			width: 100%;
+			@media screen and (min-width: $break-md){
+				width: 0% !important;
+				padding-left: 5%;
+			}
+		}
+	}
 	&-branding{
 		max-width: 220px;
 		height: 88px;

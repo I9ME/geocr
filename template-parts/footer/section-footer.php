@@ -3,9 +3,9 @@
 		<img src="<?php echo get_template_directory_uri()?>/assets/images/geocronblack.png">
 	</header>
 	<div class="Section-content">
-		<ul class="Section-items u-marginVertical">
-			<li class="Section-items-item invest-geotecnica u-paddingHorizontal--inter">
-				<header class="Section-items-item-header u-paddingBottom--inter--half">
+		<ul class="Section-items u-marginVertical u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+			<li class="Section-items-item u-size4of24 invest-geotecnica u-paddingHorizontal--inter">
+				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Investigação Geotécnica</h4>
 				</header>
 				<ul class="Section-items-item-list">
@@ -21,9 +21,9 @@
 					<li class="Section-items-item-list-point">Mapeamento geológico geotécnico</li>	
 				</ul>
 			</li>
-			<li class="Section-items-item hidrogeologia-e-estudos-ambientais u-paddingHorizontal--inter">
-				<div class="u-size12of24 u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header u-paddingBottom--inter--half">
+			<li class="Section-items-item u-size4of24 hidrogeologia-e-estudos-ambientais u-paddingHorizontal--inter">
+				<div class="Section-items-item-content u-sizeFull u-paddingHorizontal--inter--half">
+					<header class="Section-items-item-header">
 						<h4 class="Section-items-item-header-title">Hidrogeologia</h4>
 					</header>
 					<ul class="Section-items-item-list">
@@ -34,8 +34,8 @@
 						<li class="Section-items-item-list-point">Estudos hidrogeológicos</li>	
 					</ul>
 				</div>
-				<div class="u-size12of24 u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header u-paddingBottom--inter--half">
+				<div class="Section-items-item-content u-sizeFull u-paddingHorizontal--inter--half">
+					<header class="Section-items-item-header">
 						<h4 class="Section-items-item-header-title">Estudos Ambientais</h4>
 					</header>
 					<ul class="Section-items-item-list">
@@ -45,8 +45,8 @@
 					</ul>
 				</div>
 			</li>
-			<li class="Section-items-item orcamento u-paddingHorizontal--inter">
-				<header class="Section-items-item-header u-paddingBottom--inter--half">
+			<li class="Section-items-item u-size4of24 orcamento u-paddingHorizontal--inter">
+				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Orçamento</h4>
 				</header>
 				<form class="Form Form--style1 Form--footerGeocron">
@@ -66,8 +66,8 @@
 					</fieldset>
 				</form>
 			</li>
-			<li class="Section-items-item contato u-paddingHorizontal--inter">
-				<header class="Section-items-item-header u-paddingBottom--inter--half">
+			<li class="Section-items-item u-size4of24 contato u-paddingHorizontal--inter">
+				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Contato</h4>
 				</header>
 				<div class="u-displayFlex">

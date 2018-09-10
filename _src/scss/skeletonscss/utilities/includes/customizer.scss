@@ -7,3 +7,12 @@
 .u-borderBottomLight{
 	border-bottom:1px solid rgba(0,0,0,0.2);
 }
+
+.clientes-carousel{
+	& .owl-item{
+		@media screen and (min-width: $break-sm){
+			display: flex !important;
+			justify-content: center !important;
+		}
+	}
+}
