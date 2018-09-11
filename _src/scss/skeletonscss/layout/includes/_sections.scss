@@ -1080,5 +1080,54 @@
 			}
 		}
 	}
+
+	//PÁGINAS DO GEOCRON
+
+	/*CONTATO*/
+
+	&--contatoPage{
+		& .Section{
+			&-header{
+				&-title{
+					color: $color_3;
+					text-transform: initial;
+					font-size: 22px;
+				}
+			}
+			&-items{
+				&-item{
+					&-header{
+						&-title{
+							color: $color_12;
+							text-transform: uppercase;
+							font-weight: bolder;
+						}
+						&-subtitle{
+							color: $color_12;
+							text-transform: uppercase;
+							font-weight: normal;
+						}
+					}
+				}
+			}
+		}
+		& .Button{
+			background: $color_12;
+			color: $color_1;
+			font-weight: lighter;
+			&--border{
+				border:1px solid;
+				border-color: $color_1;
+				&.hover{
+					&:hover{
+						background: $color_3;
+						border-color: $color_3;
+						color: $color_11;
+					}
+				}
+			}
+		}
+	}
+
 	// end class .Section
 	}			

@@ -232,6 +232,10 @@ strong {
   color: #9d0a0e;
 }
 
+.Section {
+  /*CONTATO*/
+}
+
 .Section-header-title--beforeTitleLine {
   position: relative;
 }
@@ -1198,6 +1202,41 @@ strong {
   color: #9d0a0e;
 }
 
+.Section--contatoPage .Section-header-title {
+  color: #f3ad13;
+  text-transform: initial;
+  font-size: 22px;
+}
+
+.Section--contatoPage .Section-items-item-header-title {
+  color: #008c45;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+
+.Section--contatoPage .Section-items-item-header-subtitle {
+  color: #008c45;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.Section--contatoPage .Button {
+  background: #008c45;
+  color: #FFFFFF;
+  font-weight: lighter;
+}
+
+.Section--contatoPage .Button--border {
+  border: 1px solid;
+  border-color: #FFFFFF;
+}
+
+.Section--contatoPage .Button--border.hover:hover {
+  background: #f3ad13;
+  border-color: #f3ad13;
+  color: #000000;
+}
+
 .Site-header {
   height: auto;
   background: rgba(0, 0, 0, 0.7);
@@ -1253,6 +1292,13 @@ strong {
   .Site-header-branding-type .ElementImg {
     left: 10px;
   }
+}
+
+.Site-header--alternative {
+  background: #008c45;
+  position: relative;
+  padding-top: 3%;
+  padding-bottom: 3%;
 }
 
 .Intro--home {

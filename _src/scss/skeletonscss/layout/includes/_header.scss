@@ -58,9 +58,12 @@
 	// ===================
 	// CUSTOMIZER
 	// ===================
-	&-branding{
-		
-		}
+	&--alternative{
+		background: $color_12;
+		position: relative;
+		padding-top: 3%;
+		padding-bottom: 3%;
+	}
 	
 
 

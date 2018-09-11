@@ -9,5 +9,6 @@
  */
 
 ?>
-
-<img src="<?php echo get_template_directory_uri() ?>/assets/images/geologo-2.png">
+<a href="<?php echo get_home_url() ?>">
+	<img src="<?php echo get_template_directory_uri() ?>/assets/images/geologo-2.png">
+</a>

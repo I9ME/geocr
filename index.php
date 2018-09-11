@@ -9,7 +9,6 @@
  * @since 1.0
  * @version 1.0
  */
-
 get_header(); ?>
 <!-- teste -->
 <main id="main" class="SiteMain Site-main" role="main">

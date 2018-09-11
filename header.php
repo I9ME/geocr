@@ -1,5 +1,3 @@
-
-
 <?php
 /**
  * The header for our theme
@@ -13,9 +11,7 @@
  * @since 1.0
  * @version 1.0
  */
-
  get_template_part('template-parts/header/header','tags');
-
   ?>
 
 <body <?php body_class(); ?>>
@@ -23,20 +19,35 @@
 
 	
 <div id="page" class="Site">
-	<header id="masthead" class="Site-header u-sizeFull u-zIndex10 is-animating">
-		<div class="Site-header-content u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
-			<!-- Logo do site -->
-			<div class="Site-header-content-logo u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter"> 
-				<?php  get_template_part('template-parts/header/header','branding');?>
-			</div>
-			
-			<!-- Menu de Navegação -->
-				<?php  get_template_part('template-parts/header/header','navigation');?>
-			
-		</div><!-- .u-maxSize--container -->
+	<?php if( is_home() || is_front_page() ) { ?>
+		<header id="masthead" class="Site-header u-sizeFull u-zIndex10 is-animating">
+			<div class="Site-header-content u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
+				<!-- Logo do site -->
+				<div class="Site-header-content-logo u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter"> 
+					<?php  get_template_part('template-parts/header/header','branding');?>
+				</div>
+				
+				<!-- Menu de Navegação -->
+					<?php  get_template_part('template-parts/header/header','navigation');?>
+				
+			</div><!-- .u-maxSize--container -->
 
-	</header><!-- #masthead -->
+		</header><!-- #masthead -->
+	<?php } else { ?>
+		<header id="masthead" class="Site-header Site-header--alternative u-sizeFull u-zIndex10 is-animating">
+			<div class="Site-header-content u-maxSize--container u-alignCenterBox u-alignCenter u-displayFlex u-flexJustifyContentSpaceBetween u-paddingVertical u-marginVertical">
+				<!-- Logo do site -->
+				<div class="Site-header-content-logo u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter"> 
+					<?php  get_template_part('template-parts/header/header','branding');?>
+				</div>
+				
+				<!-- Menu de Navegação -->
+					<?php  get_template_part('template-parts/header/header','navigation');?>
+				
+			</div><!-- .u-maxSize--container -->
 
+		</header><!-- #masthead -->
+<?php } ?>
 	
 
 	<div class="Site-container">
