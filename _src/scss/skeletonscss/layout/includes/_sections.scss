@@ -993,6 +993,23 @@
 
 	&--orcamento{
 		& .Section{
+			&-header{
+				&-title{
+					text-transform: uppercase !important;
+					padding-bottom: 7px;
+					color: $color_12 !important;
+					letter-spacing: 1px;
+					font-size: 15px !important;
+					&--beforeTitleLine{
+						&:before{
+							left: 50% !important;
+							transform: translateX(-50%) !important;
+							width: 65px;
+							background:$color_3;
+						}
+					}
+				}
+			}
 		}
 		.Button{
 			background: $color_12;
@@ -1096,7 +1113,26 @@
 			}
 			&-items{
 				&-item{
+					&--geocron{
+						@media screen and (min-width: $break-md){
+							padding-right: 0px;
+						}
+						@media screen and (max-width: $break-sm){
+							padding-left: 0px;
+						}
+					}
+					&--formContato{
+						@media screen and (min-width: $break-md){
+							padding-left: 0px;
+						}
+						@media screen and (max-width: $break-sm){
+							padding-right: 0px;
+						}
+					}
 					&-header{
+						@media screen and (min-width: $break-md){
+							padding: 0;
+						}
 						&-title{
 							color: $color_12;
 							text-transform: uppercase;
@@ -1114,7 +1150,7 @@
 		& .Button{
 			background: $color_12;
 			color: $color_1;
-			font-weight: lighter;
+			font-weight: normal;
 			&--border{
 				border:1px solid;
 				border-color: $color_1;
@@ -1123,6 +1159,108 @@
 						background: $color_3;
 						border-color: $color_3;
 						color: $color_11;
+					}
+				}
+			}
+		}
+	}
+	&--sobrePage{
+		& .Section{
+			&-header{
+				&-title{
+					color: $color_3;
+					font-size: 22px;
+					text-transform: initial;
+					&--beforeTitleLine{
+						&:before{
+							background:$color_3;
+							left: 0%;
+							transform: none;
+						}
+					}
+				}
+			}
+			&-content{
+				&-header{
+					&-title{
+						color: $color_12;
+						text-transform: uppercase;
+						font-size: 15px;
+						@media screen and (min-width: $break-md){
+							font-size: 20px;
+						}
+					}
+				}
+				&-resume{
+					font-size: 18px;
+				}
+				&-figure{
+					&--first{
+						@media screen and (min-width: $break-md){
+							padding-right: 2%;
+						}
+					}
+				}
+				&-items{
+					&-subtitle{
+						text-transform: uppercase;
+					}
+					&--first{
+						@media screen and (min-width: $break-md){
+							padding-left: 2%;
+						}
+					}
+				}
+			}
+		}
+	}
+	&--servicesPage{
+		@media screen and (min-width: $break-md){
+			margin-left: 10%;
+			margin-right: 10%;
+			padding: 0;
+		}
+		& .Section{
+			&-items{
+				&-item{
+					&-content{
+						&-header{
+							@media screen and (m-width: $break-md){
+								padding: 0;
+							}
+							&-figure{
+								@media screen and (max-width: $break-sm){
+									justify-content: center;
+								}
+							}
+							&-title{
+								@media screen and (max-width: $break-sm){
+									text-align: center;
+								}
+								@media screen and (min-width: $break-md){
+									padding-left:3%;
+								}
+								color: $color_3;
+								font-size: 22px;
+							}
+						}
+					}
+					&-list{
+						&-point{
+							&-content{
+								@media screen and (max-width: $break-sm){
+									width: 100% !important;
+								}
+								&-title{
+									text-transform: uppercase;
+									color: $color_12;
+									&--yellow{
+										text-transform: uppercase;
+										color: $color_3;
+									}
+								}
+							}
+						}
 					}
 				}
 			}

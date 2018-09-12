@@ -520,6 +520,30 @@ $('#servicePage-carousel').owlCarousel({
     }
 })
 
+$('#sobrePage-carousel').owlCarousel({
+    loop:true,
+    margin:50,
+    responsiveClass:true,
+    responsive:{
+        0:{
+            items:1,
+            margin:25,
+            nav:false,
+            dots:false
+        },
+        600:{
+            items:1,
+            nav:false,
+            dots:false
+        },
+        1000:{
+            items:3,
+            loop:false,
+            dots:false
+        }
+    }
+})
+
 
 
 // Persnonalizando os Botões de Navegação

@@ -1106,6 +1106,21 @@ strong {
   }
 }
 
+.Section--orcamento .Section-header-title {
+  text-transform: uppercase !important;
+  padding-bottom: 7px;
+  color: #008c45 !important;
+  letter-spacing: 1px;
+  font-size: 15px !important;
+}
+
+.Section--orcamento .Section-header-title--beforeTitleLine:before {
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  width: 65px;
+  background: #f3ad13;
+}
+
 .Section--orcamento .Button {
   background: #008c45;
   color: #FFFFFF;
@@ -1208,6 +1223,36 @@ strong {
   font-size: 22px;
 }
 
+@media screen and (min-width: 960px) {
+  .Section--contatoPage .Section-items-item--geocron {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--contatoPage .Section-items-item--geocron {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--contatoPage .Section-items-item--formContato {
+    padding-left: 0px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--contatoPage .Section-items-item--formContato {
+    padding-right: 0px;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--contatoPage .Section-items-item-header {
+    padding: 0;
+  }
+}
+
 .Section--contatoPage .Section-items-item-header-title {
   color: #008c45;
   text-transform: uppercase;
@@ -1223,7 +1268,7 @@ strong {
 .Section--contatoPage .Button {
   background: #008c45;
   color: #FFFFFF;
-  font-weight: lighter;
+  font-weight: normal;
 }
 
 .Section--contatoPage .Button--border {
@@ -1235,6 +1280,103 @@ strong {
   background: #f3ad13;
   border-color: #f3ad13;
   color: #000000;
+}
+
+.Section--sobrePage .Section-header-title {
+  color: #f3ad13;
+  font-size: 22px;
+  text-transform: initial;
+}
+
+.Section--sobrePage .Section-header-title--beforeTitleLine:before {
+  background: #f3ad13;
+  left: 0%;
+  transform: none;
+}
+
+.Section--sobrePage .Section-content-header-title {
+  color: #008c45;
+  text-transform: uppercase;
+  font-size: 15px;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobrePage .Section-content-header-title {
+    font-size: 20px;
+  }
+}
+
+.Section--sobrePage .Section-content-resume {
+  font-size: 18px;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobrePage .Section-content-figure--first {
+    padding-right: 2%;
+  }
+}
+
+.Section--sobrePage .Section-content-items-subtitle {
+  text-transform: uppercase;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobrePage .Section-content-items--first {
+    padding-left: 2%;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--servicesPage {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0;
+  }
+}
+
+@media screen and (m-width: 960px) {
+  .Section--servicesPage .Section-items-item-content-header {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--servicesPage .Section-items-item-content-header-figure {
+    justify-content: center;
+  }
+}
+
+.Section--servicesPage .Section-items-item-content-header-title {
+  color: #f3ad13;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 768px) {
+  .Section--servicesPage .Section-items-item-content-header-title {
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--servicesPage .Section-items-item-content-header-title {
+    padding-left: 3%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .Section--servicesPage .Section-items-item-list-point-content {
+    width: 100% !important;
+  }
+}
+
+.Section--servicesPage .Section-items-item-list-point-content-title {
+  text-transform: uppercase;
+  color: #008c45;
+}
+
+.Section--servicesPage .Section-items-item-list-point-content-title--yellow {
+  text-transform: uppercase;
+  color: #f3ad13;
 }
 
 .Site-header {
@@ -5993,7 +6135,7 @@ th.u-isShown {
 
 .FigureIcon--geo {
   background-image: url(../images/sprite.png);
-  background-position: 0px -168px;
+  background-position: 0px -172px;
   width: 8px;
   height: 10px;
 }
@@ -6014,14 +6156,28 @@ th.u-isShown {
 
 .FigureIcon--mail {
   background-image: url(../images/sprite.png);
-  background-position: 0px -158px;
+  background-position: -30px -158px;
   width: 10px;
   height: 10px;
 }
 
+.FigureIcon--mais--yellow {
+  background-image: url(../images/sprite.png);
+  background-position: 0px -158px;
+  width: 15px;
+  height: 14px;
+}
+
+.FigureIcon--mais {
+  background-image: url(../images/sprite.png);
+  background-position: -15px -158px;
+  width: 15px;
+  height: 14px;
+}
+
 .FigureIcon--phone {
   background-image: url(../images/sprite.png);
-  background-position: -10px -158px;
+  background-position: -40px -158px;
   width: 11px;
   height: 9px;
 }

@@ -1,10 +1,11 @@
-<section class="Section Section--style1 Section--contatoPage u-paddingTop u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
-	<header class="Section-header u-paddingBottom--inter">
-		<h3 class="Section-header-title u-alignCenter">Entre em contato com a gente!</h3>
+<section class="Section Section--style1 Section--contatoPage u-paddingTop u-displayFlex u-flexJustifyContentCenter u-paddingBottom--inter u-paddingHorizontal u-paddingVertical">
+	<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
+	<header class="Section-header u-paddingBottom--inter--half u-sizeFull">
+		<h3 class="Section-header-title">Entre em contato com a gente!</h3>
 	</header>
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
-		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-sizeFull">
-			<li class="Section-items-item u-paddingHorizontal--inter">
+		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexSwitchRow u-sizeFull">
+			<li class="Section-items-item--formContato u-paddingHorizontal--inter--half u-paddingRight">
 				<form class="Form Form--style1">
 					<fieldset class="Form-fieldset">
 						<div class="Form-line">
@@ -19,7 +20,7 @@
 					</fieldset>
 				</form>
 			</li>
-			<li class="Section-items-item u-paddingHorizontal--inter">
+			<li class="Section-items-item--geocron u-paddingHorizontal--inter u-paddingLeft">
 				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Geocron</h4>
 					<h5 class="Section-items-item-header-subtitle">Sondagens e Soluções Ambientais</h5>
@@ -37,5 +38,6 @@
 				</div>
 			</li>
 		</ul>
+	</div>
 	</div>
 </section>
