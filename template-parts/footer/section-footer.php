@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--footer u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
+<section class="Section Section--style1 Section--footer u-positionRelative u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
 	<header class="Section-header u-displayFlex u-flexJustifyContentCenter u-paddingBottom--inter">
 		<img src="<?php echo get_template_directory_uri()?>/assets/images/geocronblack.png">
 	</header>

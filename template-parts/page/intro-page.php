@@ -1,12 +1,9 @@
 <?php if( is_home() || is_front_page() ) { ?>
-
-	<section id="up" class="Section Section--intro Intro Intro--home Intro--background Section--buscaRoupa Section--style2 u-positionRelative u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter u-boxShadow" data-stellar-background-ratio="0.3">	
-	
-
-	<div class="Section-header u-paddingHorizontal u-paddingVertical u-size24of24 Captions u-positionRelative u-displayFlex u-flexDirectionColumn u-maxSize--container u-alignCenterBox">
+	<section id="up" class="Section Section--intro Intro Intro--home Intro--before Intro--background Section--buscaRoupa Section--style2 u-flex u-flexDirectionColumn u-flexAlignItemsCenter u-flexJustifyContentCenter u-positionRelative">	
+		<div class="Section-header u-paddingHorizontal u-paddingVertical u-size24of24 Captions u-displayFlex u-flexDirectionColumn u-maxSize--container u-alignCenterBox">
 		<h2 class="Section-header-title Section-header-title--beforeTitleLine u-paddingHorizontal--inter--half u-size12of24">Sondagem, Hidrologia <br>& Estudos Ambientais.</h2>
 		<!--FORMULÁRIO-->
-		<!--<p class="Section-header-resume u-alignCenter u-paddingTop u-paddingBottom--inter--half">Solicite um orçamento</p>
+		<p class="Section-header-resume u-alignCenter u-paddingTop--inter u-paddingBottom--inter--half">Solicite um orçamento</p>
 		 <form class="Form Form--style1">
 			<fieldset class="Form-fieldset">
 				<div class="Form-line u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexSwitchRow u-flexFlowWrap">
@@ -16,7 +13,7 @@
 					</div>
 				</div>
 			</fieldset>
-		</form> -->
+		</form> 
 	</div>
 	</section>	
 

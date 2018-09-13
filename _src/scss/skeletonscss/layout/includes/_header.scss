@@ -1,11 +1,11 @@
 .Site-header{
-	height: auto;
-	background: rgba(0,0,0,0.7);
+	background: $color_12;
 	position: fixed;
 	overflow:hidden;
 	clear: both;
 	padding-top: $v_spacing / 4;
 	padding-bottom: $v_spacing / 4;
+
 	&-content{
 		&-logo{
 			width: 100%;
@@ -58,14 +58,6 @@
 	// ===================
 	// CUSTOMIZER
 	// ===================
-	&--alternative{
-		background: $color_12;
-		position: relative;
-		padding-top: 3%;
-		padding-bottom: 3%;
-	}
-	
-
 
 
 	// ===================

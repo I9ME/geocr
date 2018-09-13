@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--sobre u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
+<section class="Section Section--style1 Section--sobre u-positionRelative u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
 	<header class="Section-header u-paddingBottom--inter">
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-alignCenter">A Geocron</h3>
 	</header>

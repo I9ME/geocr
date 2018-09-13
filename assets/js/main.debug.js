@@ -495,30 +495,6 @@ $('#clientes-carousel').owlCarousel({
         }
     }
 })
-$('#servicePage-carousel').owlCarousel({
-    loop:true,
-    margin:50,
-    responsiveClass:true,
-    autoHeight:true,
-    responsive:{
-        0:{
-            items:1,
-            margin:25,
-            nav:false,
-            dots:false
-        },
-        600:{
-            items:1,
-            nav:false,
-            dots:false
-        },
-        1000:{
-            items:1,
-            loop:false,
-            dots:false
-        }
-    }
-})
 
 $('#sobrePage-carousel').owlCarousel({
     loop:true,

@@ -3,7 +3,7 @@
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-alignCenter">Serviços</h3>
 	</header>
 	<div class="Section-content u-paddingVertical">
-		<ul id="servicePage-carousel" class="Section-items u-sizeFull owl-carousel">
+		<ul class="Section-items u-sizeFull">
 			<li class="Section-items-item u-sizeFull">
 				<div class="Section-items-item-content u-sizeFull">
 					<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
@@ -24,7 +24,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -38,7 +38,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -52,7 +52,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -66,7 +66,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -80,7 +80,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -94,7 +94,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -108,7 +108,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -122,7 +122,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -136,7 +136,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -150,7 +150,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -174,7 +174,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -188,7 +188,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -202,7 +202,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -216,7 +216,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -230,7 +230,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -256,7 +256,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -270,7 +270,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>
@@ -284,7 +284,7 @@
 						</div>
 						<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 							<figure class="Section-items-item-list-point-content-figure">
-								<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+								<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 							</figure>
 						</div>
 					</li>

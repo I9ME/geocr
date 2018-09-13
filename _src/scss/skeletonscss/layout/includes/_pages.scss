@@ -15,7 +15,31 @@
 		background-position: top center;
 		background-size: cover;
 		//background-attachment: fixed;
-
+		height: 90vh;
+		background: transparent;
+		@media screen and (max-width: $break-sm){
+			background: $color_21;
+		}
+			&:before{
+			@media screen and (min-width: $break-md){
+				display: block;
+				min-height: 550px;
+			    width: 200%;
+			    margin-left: -60px;
+			    position: absolute;
+			    top:-200px;
+			    left:-1400px;
+			    content: "";
+		/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+				transform: skew(-50deg, 15deg) rotate(-5deg);
+				border-bottom-right-radius: 75px;
+				background: $color_12;
+				box-shadow: -5px -5px 32px 3px rgba(0,0,0,0.55);
+				z-index: -1;
+			}
+		}
 	}
 	
 	
@@ -30,12 +54,6 @@
 	&--background{
 		background-repeat: no-repeat;
 		//background-image: url('../images/Intro-revendedores-roupa-em-atacado--mobile.png');
-		background: linear-gradient(to right bottom, $color_12, $color_21);
-		@media screen and (min-width: $break-md){
-			background-size: cover;
-			background-image: url('../images/geobanner.jpg');
-			background-attachment: fixed;
-		}
 	}
 }
 .u-hasSideBar{

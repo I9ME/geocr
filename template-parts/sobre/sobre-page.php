@@ -1,4 +1,4 @@
-<section class="Section Section--style1 Section--sobrePage u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
+<section class="Section Section--style1 Section--sobrePage u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical u-paddingHeaderFix">
 	<div class="Section-content u-displayFlex u-flexDirectionColumnReverse u-flexSwitchRow u-sizeFull u-paddingVertical u-paddingTop--inter--half">
 		<figure class="Section-content-figure Section-content-figure--first u-size12of24 u-paddingHorizontal--inter--half">
 			<img class="u-objectFitCover u-height5of10 u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">

@@ -2,12 +2,14 @@
 	<header class="Section-header u-paddingBottom--inter">
 		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-alignCenter">Serviços</h3>
 	</header>
-	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
+	<div class="Section-content u-displayFlex u-flexJustifyContentCenter u-marginVertical--inter">
 		<ul class="Section-items u-displayFlex u-size16of24 u-flexDirectionColumn u-flexJustifyContentCenter">
 			<li class="Section-items-item u-displayFlex u-sizeFull u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingHorizontal--inter u-borderBottomStrong">
-				<div class="Section-items-item-content u-displayFlex u-size12of24  u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingBottom--inter">
+				<div class="Section-items-item-content u-displayFlex u-size12of24  u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingBottom--inter u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--investiga"></i>
-					<h4 class="Section-items-item-title u-alignCenter">Investigação<br>Geotécnica</h4>
+					<div class="Section-items-item-content-container">
+						<h4 class="Section-items-item-title u-alignCenter">Investigação<br>Geotécnica</h4>
+					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
 					<div class="Section-items-item-content-carroselFig u-sizeFull">
@@ -29,9 +31,11 @@
 				</div>
 			</li>
 			<li class="Section-items-item u-displayFlex u-sizeFull u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingHorizontal--inter u-borderBottomLight">
-				<div class="Section-items-item-content u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-size12of24 u-paddingBottom--inter">
+				<div class="Section-items-item-content u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-size12of24 u-paddingBottom--inter u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--hidrogeologia"></i>
-					<h4 class="Section-items-item-title u-alignCenter">Hidrogeologia</h4>
+					<div class="Section-items-item-content-container">
+						<h4 class="Section-items-item-title u-alignCenter">Hidrogeologia</h4>
+					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
 					<div class="Section-items-item-content-carroselFig u-sizeFull">
@@ -53,9 +57,11 @@
 				</div>
 			</li>
 			<li class="Section-items-item u-displayFlex u-sizeFull u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingHorizontal--inter">
-				<div class="Section-items-item-content u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-size12of24 u-paddingBottom--inter">
+				<div class="Section-items-item-content u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-size12of24 u-paddingBottom--inter u-flexAlignItemsCenter">
 					<i class="FigureIcon FigureIcon--estudos"></i>
-					<h4 class="Section-items-item-title u-alignCenter">Estudos Ambientais</h4>
+					<div class="Section-items-item-content-container">
+						<h4 class="Section-items-item-title u-alignCenter">Estudos Ambientais</h4>
+					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
 					<div class="Section-items-item-content-carroselFig u-sizeFull">

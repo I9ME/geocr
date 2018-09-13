@@ -1027,13 +1027,12 @@ strong {
   color: #f3ad13 !important;
 }
 
-.Section--intro {
-  box-shadow: 0px 0px 1px 1000px black;
-}
-
 @media screen and (min-width: 960px) {
   .Section--intro .Section-header {
     padding-left: 8%;
+    position: absolute !important;
+    top: 50px;
+    left: 5%;
   }
 }
 
@@ -1045,6 +1044,19 @@ strong {
 .Section--intro .Section-header-resume {
   text-transform: uppercase;
   font-size: 15px;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--intro .Section-header-resume {
+    justify-content: flex-start;
+    text-align: left;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--intro .Form-line {
+    justify-content: flex-start;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -1065,8 +1077,47 @@ strong {
   }
 }
 
+.Section--services .Section-items-item-content {
+  justify-content: flex-start;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--services .Section-items-item-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5%;
+  }
+}
+
 .Section--sobre {
-  background: #008c45;
+  background: #3bcaa2;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobre {
+    background: transparent;
+    height: 90vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobre:before {
+    display: block;
+    min-height: 550px;
+    width: 100%;
+    margin-left: -60px;
+    position: absolute;
+    content: "";
+    /*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+    transform: skew(-50deg, 7deg) rotate(-2deg);
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    background: #3bcaa2;
+    z-index: -1;
+  }
 }
 
 .Section--sobre .Section-header-title {
@@ -1138,6 +1189,34 @@ strong {
 
 .Section--footer {
   background: #f3ad13;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--footer {
+    background: transparent;
+    height: 100vh;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Section--footer:before {
+    display: block;
+    min-height: 550px;
+    width: 200%;
+    margin-left: -60px;
+    position: absolute;
+    top: 449px;
+    left: -217px;
+    content: "";
+    /*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+    transform: skew(-71deg, 20deg) rotate(-1deg);
+    border-bottom-right-radius: 75px;
+    border-top-left-radius: 75px;
+    background: #f3ad13;
+    z-index: -1;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -1217,6 +1296,16 @@ strong {
   color: #9d0a0e;
 }
 
+.Section--contatoPage {
+  padding-top: 30% !important;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--contatoPage {
+    padding-top: 9% !important;
+  }
+}
+
 .Section--contatoPage .Section-header-title {
   color: #f3ad13;
   text-transform: initial;
@@ -1282,6 +1371,16 @@ strong {
   color: #000000;
 }
 
+.Section--sobrePage {
+  padding-top: 30% !important;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--sobrePage {
+    padding-top: 7% !important;
+  }
+}
+
 .Section--sobrePage .Section-header-title {
   color: #f3ad13;
   font-size: 22px;
@@ -1323,6 +1422,16 @@ strong {
 @media screen and (min-width: 960px) {
   .Section--sobrePage .Section-content-items--first {
     padding-left: 2%;
+  }
+}
+
+.Section--servicesPage {
+  padding-top: 35% !important;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--servicesPage {
+    padding-top: 11% !important;
   }
 }
 
@@ -1380,8 +1489,7 @@ strong {
 }
 
 .Site-header {
-  height: auto;
-  background: rgba(0, 0, 0, 0.7);
+  background: #008c45;
   position: fixed;
   overflow: hidden;
   clear: both;
@@ -1436,18 +1544,40 @@ strong {
   }
 }
 
-.Site-header--alternative {
-  background: #008c45;
-  position: relative;
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
 .Intro--home {
   padding-top: 100px;
   /* background-image: url('../images/Intro--bg--mobile.png'); */
   background-position: top center;
   background-size: cover;
+  height: 90vh;
+  background: transparent;
+}
+
+@media screen and (max-width: 768px) {
+  .Intro--home {
+    background: #3bcaa2;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  .Intro--home:before {
+    display: block;
+    min-height: 550px;
+    width: 200%;
+    margin-left: -60px;
+    position: absolute;
+    top: -200px;
+    left: -1400px;
+    content: "";
+    /*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+    transform: skew(-50deg, 15deg) rotate(-5deg);
+    border-bottom-right-radius: 75px;
+    background: #008c45;
+    box-shadow: -5px -5px 32px 3px rgba(0, 0, 0, 0.55);
+    z-index: -1;
+  }
 }
 
 @media screen and (min-width: 960px) {
@@ -1459,15 +1589,6 @@ strong {
 
 .Intro--background {
   background-repeat: no-repeat;
-  background: linear-gradient(to right bottom, #008c45, #3bcaa2);
-}
-
-@media screen and (min-width: 960px) {
-  .Intro--background {
-    background-size: cover;
-    background-image: url("../images/geobanner.jpg");
-    background-attachment: fixed;
-  }
 }
 
 .u-hasSideBar.SiteMain .SiteMain-sideBar .Section-header i svg {

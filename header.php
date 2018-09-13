@@ -31,7 +31,6 @@
 					<?php  get_template_part('template-parts/header/header','navigation');?>
 				
 			</div><!-- .u-maxSize--container -->
-
 		</header><!-- #masthead -->
 	<?php } else { ?>
 		<header id="masthead" class="Site-header Site-header--alternative u-sizeFull u-zIndex10 is-animating">

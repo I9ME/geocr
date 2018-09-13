@@ -903,11 +903,13 @@
 	// CUSTOMIZER
 	// ===================
 	&--intro{
-		box-shadow: 0px 0px 1px 1000px black;
 		& .Section{
 			&-header{
 				@media screen and (min-width: $break-md){
 					padding-left: 8%;
+					position: absolute !important;
+					top: 50px;
+					left: 5%;
 				}
 				&-title{
 					font-size: 30px !important;
@@ -916,7 +918,16 @@
 				&-resume{
 					text-transform: uppercase;
 					font-size: 15px;
+					@media screen and (min-width: $break-md){
+						justify-content: flex-start;
+						text-align: left;
+					}
 				}
+			}
+		}
+		& .Form-line{
+			@media screen and (min-width: $break-md){
+				justify-content: flex-start;
 			}
 		}
 	}
@@ -935,13 +946,46 @@
 						color: $color_3;
 						text-transform: uppercase;
 					}
+					&-content{
+						justify-content: flex-start;
+						&-container{
+								@media screen and (min-width: $break-md){
+								display: flex;
+								flex-direction: column;
+								justify-content: center;
+								padding-left: 5%;
+							}
+						}
+					}
 				}
 			}
 		}
 
 	}
 	&--sobre{
-		background:$color_12;
+		background:$color_21;
+		@media screen and (min-width: $break-md){
+			background: transparent;
+			height: 90vh;
+		}
+		&:before{
+			@media screen and (min-width: $break-md){
+				display: block;
+				min-height: 550px;
+			    width: 100%;
+			    margin-left: -60px;
+			    position: absolute;
+			    content: "";
+		/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+				transform: skew(-50deg, 7deg) rotate(-2deg);
+				border-bottom-right-radius: 75px;
+				border-top-left-radius: 75px;
+				background:$color_21;
+				z-index: -1;
+			}
+		}
 		& .Section{
 			&-header{
 				&-title{
@@ -1027,7 +1071,31 @@
 		}
 	}
 	&--footer{
-		background: $color_3;
+		background:$color_3;
+		@media screen and (min-width: $break-md){
+			background: transparent;
+			height: 100vh;
+		}
+		&:before{
+			@media screen and (min-width: $break-md){
+				display: block;
+				min-height: 550px;
+			    width: 200%;
+			    margin-left: -60px;
+			    position: absolute;
+			    top: 449px;
+			    left: -217px;
+			    content: "";
+		/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
+				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
+				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
+				transform: skew(-71deg, 20deg) rotate(-1deg);
+				border-bottom-right-radius: 75px;
+				border-top-left-radius: 75px;
+				background:$color_3;
+				z-index: -1;
+			}
+		}
 		& .Section{
 			&-header{
 				@media screen and (min-width: $break-md){
@@ -1103,6 +1171,10 @@
 	/*CONTATO*/
 
 	&--contatoPage{
+		padding-top: 30% !important;
+		@media screen and (min-width: $break-md){
+			padding-top: 9% !important;	
+		}
 		& .Section{
 			&-header{
 				&-title{
@@ -1165,6 +1237,11 @@
 		}
 	}
 	&--sobrePage{
+		padding-top: 30% !important;
+		@media screen and (min-width: $break-md){
+			padding-top: 7% !important;
+		}
+		
 		& .Section{
 			&-header{
 				&-title{
@@ -1215,6 +1292,11 @@
 		}
 	}
 	&--servicesPage{
+		padding-top: 35% !important;
+		@media screen and (min-width: $break-md){
+			padding-top: 11% !important;
+		}
+		
 		@media screen and (min-width: $break-md){
 			margin-left: 10%;
 			margin-right: 10%;
