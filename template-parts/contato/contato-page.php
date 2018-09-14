@@ -5,7 +5,7 @@
 	</header>
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
 		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexSwitchRow u-sizeFull">
-			<li class="Section-items-item--formContato u-paddingHorizontal--inter--half u-paddingRight">
+			<li class="Section-items-item--formContato">
 				<form class="Form Form--style1">
 					<fieldset class="Form-fieldset">
 						<div class="Form-line">
@@ -20,7 +20,7 @@
 					</fieldset>
 				</form>
 			</li>
-			<li class="Section-items-item--geocron u-paddingHorizontal--inter u-paddingLeft">
+			<li class="Section-items-item--geocron">
 				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Geocron</h4>
 					<h5 class="Section-items-item-header-subtitle">Sondagens e Soluções Ambientais</h5>

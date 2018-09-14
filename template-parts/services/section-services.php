@@ -12,22 +12,66 @@
 					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption">
 							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Sondagem à percussão - SPT</p>
-						</div>
-					</div>
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption">
 							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Sondagem à percussão com torque - SPT-T</p>
-						</div>
-					</div>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Sondagem à trado - ST</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Coleta de amostras deformadas e indeformadas</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Ensaio de permeabilidade</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Ensaio de Absorção</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Poços de Inspeção</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Instalação de Piezômetros</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Instalação de indicadores de nível d'água</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Mapeamento Geológico Geotécnico</p>
+						</figcaption>
+					</figure>
 				</div>
 			</li>
 			<li class="Section-items-item u-displayFlex u-sizeFull u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingHorizontal--inter u-borderBottomLight">
@@ -38,22 +82,36 @@
 					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
-							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Licença de perfuração</p>
-						</div>
-					</div>
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Licença de perfuração</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption">
 							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Outorga de Recursos Hídricos</p>
-						</div>
-					</div>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Análise de qualidade d'água</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Teste de vazão</p>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Estudos Hidrogeológicos</p>
+						</figcaption>
+					</figure>
 				</div>
 			</li>
 			<li class="Section-items-item u-displayFlex u-sizeFull u-flexDirectionColumn u-flexSwitchRow u-flexJustifyContentCenter u-paddingHorizontal--inter">
@@ -64,22 +122,24 @@
 					</div>
 				</div>
 				<div class="Section-items-item-content u-displayFlex u-size12of24 owl-carousel services-carousel">
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption">
 							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Licençiamento Ambiental</p>
-						</div>
-					</div>
-					<div class="Section-items-item-content-carroselFig u-sizeFull">
-						<div class="u-sizeFull u-sizeHeight100">
-							<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
-						</div>
-						<div class="Section-items-item-figure-carroselFig-figCaption">
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption">
 							<p class="Section-items-item-resume u-alignCenter u-marginTop--inter--half">Gerenciamento de Resíduos sólidos</p>
-						</div>
-					</div>
+						</figcaption>
+					</figure>
+					<figure class="Section-items-item-content-carroselFig u-sizeFull u-boxShadow u-borderRadius10">
+						<img src="<?php echo get_template_directory_uri() ?>/assets/images/black.png" class="u-objectFitCover u-sizeHeight100 u-sizeMinWidth100 u-borderRadius10">
+						<figcaption class="Section-items-item-figure-carroselFig-figCaption u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter">
+							<p class="Section-items-item-resume u-alignCenter">Sondagens Ambientais</p>
+						</figcaption>
+					</figure>
 				</div>
 			</li>
 		</ul>

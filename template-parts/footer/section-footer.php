@@ -53,12 +53,18 @@
 					<fieldset class="Form-fieldset">
 						<div class="Form-line">
 							<div class="Form-row">
-								<input type="text" name="nome" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Nome">
-								<input type="email" name="mail" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="E-mail">
-								<input type="text" name="phone" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Telefone">
+								<div class="Form-border">
+									<input type="text" name="nome" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Nome">
+								</div>
+								<div class="Form-border">
+									<input type="email" name="mail" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="E-mail">
+								</div>
+								<div class="Form-border">
+									<input type="text" name="phone" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Telefone">
+								</div>
 							</div>
 						</div>
-						<div class="Form-line">
+						<div class="Form-line u-paddingTop--inter">
 							<div class="Form-row">
 								<input type="submit" value="ENVIAR" name="orcamento_submit_footer" class="Button Button--border Button--background ButtonLink Button--mediumSize u-borderRadius10">
 							</div>
