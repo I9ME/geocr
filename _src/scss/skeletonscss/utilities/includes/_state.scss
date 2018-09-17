@@ -157,8 +157,8 @@ th.u-isShown {
       }
        &--switch{
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -5px;
+        right: 21px;
         &--imgA{
           opacity: 1;
           transition: opacity 0.25s 1s ease transform 0.5s 0s ease;
@@ -264,8 +264,8 @@ th.u-isShown {
       }
       &--switch{
         position: absolute;
-        top: 0px;
-        right: 0px;
+        top: -5px;
+        right: 21px;
         &--imgA{
           opacity: 0;
           transition: opacity 0.25s 1s ease transform 0.5s 0s ease;

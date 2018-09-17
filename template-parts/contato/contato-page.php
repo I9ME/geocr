@@ -4,23 +4,13 @@
 		<h3 class="Section-header-title">Entre em contato com a gente!</h3>
 	</header>
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
-		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-flexSwitchRow u-sizeFull">
-			<li class="Section-items-item--formContato">
+		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentSpaceBetween u-flexSwitchRow u-sizeFull">
+			<li class="Section-items-item u-size11of24">
 				<form class="Form Form--style1">
-					<fieldset class="Form-fieldset">
-						<div class="Form-line">
-							<div class="Form-row u-displayFlex u-flexDirectionColumn">
-								<input type="text" name="nome" class="Form-input Form-input--text Form-border--0 u-borderRadius10 u-boxShadow u-sizeFull u-marginHorizontal--inter--half" placeholder="Seu nome">
-								<input type="text" name="mail" class="Form-input Form-input--text Form-border--0 u-borderRadius10 u-boxShadow u-sizeFull u-marginHorizontal--inter--half" placeholder="Seu e-mail">
-								<input type="text" name="mail" class="Form-input Form-input--text Form-border--0 u-borderRadius10 u-boxShadow u-sizeFull u-marginHorizontal--inter--half" placeholder="Seu telefone">
-								<textarea cols="40" rows="10" name="mail" class="Form-input Form-input--textarea Form-border--0 u-borderRadius10 u-boxShadow u-sizeFull u-marginHorizontal--inter--half" placeholder="         Mensagem"></textarea>
-								<input type="submit" value="ENVIAR" name="orcamento_submit" class="Button Button--border Button--background ButtonLink u-displayInlineFlex u-flexDirectionRow Button--mediumSize hover is-animating u-size8of24 u-borderRadius10 u-displayFlex u-flexJustifyContentCenter u-flexAlignItemsCenter u-marginHorizontal--inter">
-							</div>
-						</div>
-					</fieldset>
+					<?php echo do_shortcode('[contact-form-7 id="21" title="contatoform"]') ?>
 				</form>
 			</li>
-			<li class="Section-items-item--geocron">
+			<li class="Section-items-item u-size11of24 u-paddingTop--inter--half">
 				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Geocron</h4>
 					<h5 class="Section-items-item-header-subtitle">Sondagens e Soluções Ambientais</h5>

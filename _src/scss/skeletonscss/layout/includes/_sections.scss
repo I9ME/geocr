@@ -1126,6 +1126,10 @@
 				}
 			}
 		}
+		& .name_2, .tel_2, .mail_2{
+			display: flex;
+			justify-content: center;
+		}
 	}
 	&--footer{
 		background:$color_3;

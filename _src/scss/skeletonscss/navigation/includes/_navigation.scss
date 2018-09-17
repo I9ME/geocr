@@ -91,7 +91,7 @@
 
 		&.Navigation{
 			&.Navigation--menu--main{
-				top: $header_height_m;
+				top: 76px;
 			}
 			@media screen and (min-width: $break-md){
 				position: relative;
@@ -227,7 +227,7 @@
 			& .Navigation-items{
 				&-item{
 					background: $color_3;
-					font-weight: bold;
+					font-weight: normal;
 					& .NavigationLink{
 						color: $color_2;
 						&:hover{
@@ -257,10 +257,10 @@
 			background: $color_1;
 			& .Navigation-items{
 				&-item{
-					background: none;
+					background: $color_3;
 					font-weight: bold;
 					& .NavigationLink{
-						color: $color_2;
+						color: $color_12;
 						font-weight: bold;
 						font-size: $font_size_subtitle_section;
 
@@ -665,13 +665,17 @@
 //CUSTOMIZER GEOCRON
 
 .Navigation{
+	@media screen and (max-width: $break-sm){
+			background:$color_3;
+		}
 	&-items{
 		&-item{
 			&-link{
 				color: $color_1;
-				letter-spacing: 1px;
+				letter-spacing: 2px;
 				font-size: 13px;
 				text-transform: uppercase;
+				font-weight: normal !important;
 				&:hover{
 					color: $color_3;
 				}

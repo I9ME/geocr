@@ -50,26 +50,7 @@
 					<h4 class="Section-items-item-header-title">Orçamento</h4>
 				</header>
 				<form class="Form Form--style1 Form--footerGeocron">
-					<fieldset class="Form-fieldset">
-						<div class="Form-line">
-							<div class="Form-row">
-								<div class="Form-border">
-									<input type="text" name="nome" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Nome">
-								</div>
-								<div class="Form-border">
-									<input type="email" name="mail" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="E-mail">
-								</div>
-								<div class="Form-border">
-									<input type="text" name="phone" class="Form-input Form-input--text Form-border--0 u-size24of24" placeholder="Telefone">
-								</div>
-							</div>
-						</div>
-						<div class="Form-line u-paddingTop--inter">
-							<div class="Form-row">
-								<input type="submit" value="ENVIAR" name="orcamento_submit_footer" class="Button Button--border Button--background ButtonLink Button--mediumSize u-borderRadius10">
-							</div>
-						</div>
-					</fieldset>
+					<?php echo do_shortcode('[contact-form-7 id="20" title="footerform"]') ?>
 				</form>
 			</li>
 			<li class="Section-items-item u-size4of24 contato u-paddingHorizontal--inter">
