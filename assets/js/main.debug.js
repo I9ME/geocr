@@ -143,28 +143,28 @@ var title = $(this).find('img').attr('alt');
 // Detecta o Movimento da Barra de Rolagem e aplica a classe no body
 // =====================================
 
-// $(window).scroll(function(){
+$(window).scroll(function(){
 
 
-//      var scroll = $(window).scrollTop();
+     var scroll = $(window).scrollTop();
 
-//      //Class ScrollOn
-//      if ( scroll > 0 ) {
+     //Class ScrollOn
+     if ( scroll > 0 ) {
 
-//       $('body').addClass('u-isScrollOn');
+      $('body').addClass('u-isScrollOn');
 
-//      } else {
-//       $('body').removeClass('u-isScrollOn');
-//      }
+     } else {
+      $('body').removeClass('u-isScrollOn');
+     }
 
-//       /*if ( scroll > 300 ) {
-//         $('.Intro--home-imageMain .Layer').addClass('LessDesign');
-//       } else { 
-//         $('.Intro--home-imageMain .Layer').removeClass('LessDesign');
-//       }*/
+      /*if ( scroll > 300 ) {
+        $('.Intro--home-imageMain .Layer').addClass('LessDesign');
+      } else { 
+        $('.Intro--home-imageMain .Layer').removeClass('LessDesign');
+      }*/
 
 
-// });
+});
 
 // =====================================
 // .ScrollFade

@@ -9,7 +9,7 @@
 					<h4 class="Section-items-item-header-title">Investigação Geotécnica</h4>
 				</header>
 				<ul class="Section-items-item-list">
-					<li class="Section-items-item-list-point">Sondagem à percussão - SPT</li>
+					<li class="Section-items-item-list-point">Sondagem à percussão - SPT</a></li>
 					<li class="Section-items-item-list-point">Sondagem à percussão com torque - SPT-T</li>
 					<li class="Section-items-item-list-point">Sondagem à trado - ST</li>
 					<li class="Section-items-item-list-point">Coleta de amostras deformadas e indeformadas</li>
@@ -49,9 +49,9 @@
 				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Orçamento</h4>
 				</header>
-				<form class="Form Form--style1 Form--footerGeocron">
-					<?php echo do_shortcode('[contact-form-7 id="20" title="footerform"]') ?>
-				</form>
+				
+					<?php echo do_shortcode('[contact-form-7 id="13" title="Orçamento Footer" html_class="Form Form--style1 Form--footerGeocron"]') ?>
+				
 			</li>
 			<li class="Section-items-item u-size4of24 contato u-paddingHorizontal--inter">
 				<header class="Section-items-item-header">

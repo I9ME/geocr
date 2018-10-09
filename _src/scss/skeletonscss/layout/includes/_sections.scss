@@ -941,7 +941,7 @@
 				color: $color_1;
 				background: $color_3;
 				&:hover{
-					background-color: $color_2;
+					background-color: $color_21;
 				}
 			}
 		}
@@ -963,6 +963,7 @@
 								height: 63px;
 								background: $color_1;
 								width: 100%;
+								font-size: 13px;
 								@media screen and (min-width: $break-md){
 									background: transparent;
 								}
@@ -991,6 +992,7 @@
 					}
 					&-resume{
 						z-index: 2;
+						font-size: 12px;
 					}
 					@media screen and (min-width: $break-md){
 						padding-left: 5%;
@@ -1144,7 +1146,7 @@
 			    width: 200%;
 			    margin-left: -60px;
 			    position: absolute;
-			    top: 449px;
+			    bottom: -350px;
 			    left: -217px;
 			    content: "";
 		/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);

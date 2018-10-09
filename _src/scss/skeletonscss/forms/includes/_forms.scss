@@ -65,6 +65,10 @@ $mainSelector: '.Form';
 		font-weight: bold;
 	}
 	&--style1{
+
+		& br{
+			display: none !important; 
+		} 
 		& .LegalText{
 			font-size: 14px;
 			color: $color_12;
@@ -108,25 +112,25 @@ $mainSelector: '.Form';
 		}
 		& #{$mainSelector}-input:not([type="submit"]){
 			border: 1px solid $color_9;
-			text-indent: 27px;
+			text-indent: 7px;
 
 			color: $color_10;
 			 font-weight: bold;
 
 			&::-webkit-input-placeholder { /* Chrome/Opera/Safari */
-			  color: $color_9;
+			  color: $color_11;
 			  font-weight: bold;
 			}
 			&::-moz-placeholder { /* Firefox 19+ */
-			  color: $color_9;
+			  color: $color_11;
 			  font-weight: bold;
 			}
 			&:-ms-input-placeholder { /* IE 10+ */
-			  color: $color_9;
+			  color: $color_11;
 			  font-weight: bold;
 			}
 			&:-moz-placeholder { /* Firefox 18- */
-			  color: $color_9;
+			  color: $color_11;
 			  font-weight: bold;
 			}
 			
@@ -139,6 +143,11 @@ $mainSelector: '.Form';
 		
 	}
 	&--style2{
+
+		& br{
+			display: none !important; 
+		} 
+
 		& #{$mainSelector}-label{
 			font-weight: bold;
 		}

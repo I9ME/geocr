@@ -1077,7 +1077,7 @@ strong {
 }
 
 .Section--intro .Form .Button:hover {
-  background-color: #9d0a0e;
+  background-color: #3c983f;
 }
 
 .Section--services .Section-items-item-figure-carroselFig {
@@ -1094,6 +1094,7 @@ strong {
   height: 63px;
   background: #FFFFFF;
   width: 100%;
+  font-size: 13px;
 }
 
 @media screen and (min-width: 960px) {
@@ -1125,6 +1126,7 @@ strong {
 
 .Section--services .Section-items-item-resume {
   z-index: 2;
+  font-size: 12px;
 }
 
 @media screen and (min-width: 960px) {
@@ -1278,7 +1280,7 @@ strong {
     width: 200%;
     margin-left: -60px;
     position: absolute;
-    top: 449px;
+    bottom: -350px;
     left: -217px;
     content: "";
     /*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
@@ -1569,9 +1571,12 @@ strong {
   color: #f3ad13;
 }
 
-.Site-header {
+.page .Site-header {
   background: #3c983f;
-  position: fixed;
+}
+
+.Site-header {
+  position: absolute;
   overflow: hidden;
   clear: both;
   padding-top: 9.375px;
@@ -1646,7 +1651,7 @@ strong {
 }
 
 @media screen and (min-width: 960px) {
-  .Intro--home:before {
+  .Intro--home .before {
     display: block;
     min-height: 550px;
     width: 200%;
@@ -1655,15 +1660,29 @@ strong {
     top: -200px;
     left: -1400px;
     content: "";
-    /*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
-				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
-				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
     transform: skew(-50deg, 15deg) rotate(-5deg);
     border-bottom-right-radius: 75px;
     background: #3c983f;
     box-shadow: -5px -5px 32px 3px rgba(0, 0, 0, 0.55);
     z-index: -1;
+    overflow: hidden;
   }
+}
+
+.Intro--home .before:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 100vh;
+  left: 0px;
+  bottom: -150px;
+  transform: skew(50deg, -15deg) rotate(5deg);
+  content: "";
+  background: url("../images/bg-home.png") no-repeat;
+  z-index: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0px 0px;
 }
 
 @media screen and (min-width: 960px) {
@@ -3538,13 +3557,19 @@ th.u-isShown {
 }
 
 .u-isScrollOn .Site-header {
-  /*background: $color_1;*/
-  -moz-box-shadow: 0px 5px 30px -5px rgba(0, 0, 0, 0.2);
-  -webkit-box-shadow: 0px 5px 30px -5px rgba(0, 0, 0, 0.2);
-  -o-box-shadow: 0px 5px 30px -5px rgba(0, 0, 0, 0.2);
-  box-shadow: 0px 5px 30px -5px rgba(0, 0, 0, 0.2);
+  background: #3c983f;
+  position: fixed;
   /* padding-top: $v_spacing / 6;
     padding-bottom: $v_spacing / 6; */
+  /*   & .NavigationLink{
+        color: $color_2 !important;
+        &.ButtonLink--nav{
+          // color: $color_2 !important;
+          &:hover{
+            color: $color_1 !important;
+          }
+        }
+      } */
 }
 
 @media screen and (min-width: 960px) {
@@ -3560,14 +3585,6 @@ th.u-isShown {
   .u-isScrollOn .Site-header .Navigation--menu--contactPoints.Contacts .Value {
     color: #000000;
   }
-}
-
-.u-isScrollOn .Site-header .NavigationLink {
-  color: #9d0a0e !important;
-}
-
-.u-isScrollOn .Site-header .NavigationLink.ButtonLink--nav:hover {
-  color: #FFFFFF !important;
 }
 
 @media screen and (min-width: 768px) {
@@ -6508,6 +6525,10 @@ input[type="submit"] {
   font-weight: bold;
 }
 
+.Form--style1 br {
+  display: none !important;
+}
+
 .Form--style1 .LegalText {
   font-size: 14px;
   color: #008c45;
@@ -6549,37 +6570,41 @@ input[type="submit"] {
 
 .Form--style1 .Form-input:not([type="submit"]) {
   border: 1px solid #999999;
-  text-indent: 27px;
+  text-indent: 7px;
   color: #555555;
   font-weight: bold;
 }
 
 .Form--style1 .Form-input:not([type="submit"])::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */
-  color: #999999;
+  color: #000000;
   font-weight: bold;
 }
 
 .Form--style1 .Form-input:not([type="submit"])::-moz-placeholder {
   /* Firefox 19+ */
-  color: #999999;
+  color: #000000;
   font-weight: bold;
 }
 
 .Form--style1 .Form-input:not([type="submit"]):-ms-input-placeholder {
   /* IE 10+ */
-  color: #999999;
+  color: #000000;
   font-weight: bold;
 }
 
 .Form--style1 .Form-input:not([type="submit"]):-moz-placeholder {
   /* Firefox 18- */
-  color: #999999;
+  color: #000000;
   font-weight: bold;
 }
 
 .Form--style1 ._form-thank-you {
   color: #25c844;
+}
+
+.Form--style2 br {
+  display: none !important;
 }
 
 .Form--style2 .Form-label {
@@ -7008,6 +7033,13 @@ input[type="submit"] {
 
 #loading {
   display: none;
+}
+
+div.wpcf7 .ajax-loader {
+  position: absolute;
+  bottom: -35px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*--------------------------------------------------------------

@@ -1,6 +1,8 @@
-.Site-header{
+.page .Site-header{
 	background: $color_21;
-	position: fixed;
+}
+.Site-header{
+	position: absolute;
 	overflow:hidden;
 	clear: both;
 	padding-top: $v_spacing / 4;

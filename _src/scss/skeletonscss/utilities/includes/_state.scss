@@ -456,11 +456,9 @@ body.u-isScrollOff{
   }
   & .Site-header{
 
-     /*background: $color_1;*/
-    -moz-box-shadow: 0px 5px 30px -5px rgba(0,0,0,0.20);
-    -webkit-box-shadow: 0px 5px 30px -5px rgba(0,0,0,0.20);
-    -o-box-shadow: 0px 5px 30px -5px rgba(0,0,0,0.20);
-    box-shadow: 0px 5px 30px -5px rgba(0,0,0,0.20);
+    background: $color_21;
+    position: fixed;
+    
 
     /* padding-top: $v_spacing / 6;
     padding-bottom: $v_spacing / 6; */
@@ -497,7 +495,7 @@ body.u-isScrollOff{
     }
      
 
-    & .NavigationLink{
+  /*   & .NavigationLink{
         color: $color_2 !important;
         &.ButtonLink--nav{
           // color: $color_2 !important;
@@ -505,7 +503,7 @@ body.u-isScrollOff{
             color: $color_1 !important;
           }
         }
-      }
+      } */
      
 
       @media screen and (min-width: $break-sm){
