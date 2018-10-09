@@ -5,16 +5,16 @@
 	<div class="Section-content u-paddingVertical">
 		<ul class="Section-items u-sizeFull">
 			<?php
-				$segmento = get_terms("service-type");		
+				$service = get_terms("service-type");		
 			?>
-				<?php foreach ($segmento as $seg): ?>
+				<?php foreach ($service as $serv): ?>
 				<li class="Section-items-item u-sizeFull">
 					<div class="Section-items-item-content u-sizeFull">
 						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-content-header-figure u-displayFlex">
 								<i class="FigureIcon FigureIcon--investiga"></i>
 							</div>
-							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $seg->name; ?></h4>
+							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $serv->name;?></h4>
 						</header>
 					</div>
 					<ul class="Section-items-item-list u-sizeFull">
@@ -32,26 +32,29 @@
 									$sizeThumbs = 'thumbnail';
 									$urlThumbnail = wp_get_attachment_image_src($image_id, $sizeThumbs);
 									$urlThumbnail = $urlThumbnail[0];
+									$id = $post->ID;
+									$category = get_the_terms($id, 'service-type')[0];
 									$slug = $post->post_name;
 									$name = $post->post_title;
-							
-
+									$content = $post->post_content;
 
 						 ?>
-						<li class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
-							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
-								<div class="u-displayFlex u-sizeFull">
-									<i class="FigureIcon FigureIcon--mais"></i>
-									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo $name; ?></h4>
-								</div>
-								<p class="Section-items-item-list-point-content-resume">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</p>
-							</div>
-							<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
-								<figure class="Section-items-item-list-point-content-figure">
-									<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
-								</figure>
-							</div>
-						</li>
+							<?php if( $serv->slug == $category->slug) :?>
+								<li class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+									<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
+										<div class="u-displayFlex u-sizeFull">
+											<i class="FigureIcon FigureIcon--mais"></i>
+											<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo $name; ?></h4>
+										</div>
+										<p class="Section-items-item-list-point-content-resume"><?php echo $content; ?></p>
+									</div>
+									<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
+										<figure class="Section-items-item-list-point-content-figure">
+											<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+										</figure>
+									</div>
+								</li>
+							<?php endif; ?>
 						<?php endwhile; ?>
 					<?php endif; ?>
 					</ul>
