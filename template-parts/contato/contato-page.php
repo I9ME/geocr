@@ -6,7 +6,7 @@
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
 		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentSpaceBetween u-flexSwitchRow u-sizeFull">
 			<li class="Section-items-item u-size11of24">
-				<?php echo do_shortcode('[contact-form-7 id="15" title="Contato" html_class="Form Form--style1"]') ?>
+				<?php echo do_shortcode('[contact-form-7 id="21" title="contatoform" html_class="Form Form--style1"]') ?>
 			</li>
 			<li class="Section-items-item u-size11of24 u-paddingTop--inter--half">
 				<header class="Section-items-item-header">

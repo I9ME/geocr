@@ -5,7 +5,7 @@
 		<!--FORMULÁRIO-->
 		<p class="Section-header-resume u-paddingTop--inter u-paddingBottom--inter--half">Solicite um orçamento</p>
 		
-			<?php echo do_shortcode('[contact-form-7 id="5" title="Orçamento Intro" html_class="Form Form--style1"]')?>
+			<?php echo do_shortcode('[contact-form-7 id="18" title="intropage" html_class="Form Form--style1"]')?>
 		 
 	</div>
 	<div class="before">

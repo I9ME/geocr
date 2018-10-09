@@ -50,7 +50,7 @@
 					<h4 class="Section-items-item-header-title">Orçamento</h4>
 				</header>
 				
-					<?php echo do_shortcode('[contact-form-7 id="13" title="Orçamento Footer" html_class="Form Form--style1 Form--footerGeocron"]') ?>
+					<?php echo do_shortcode('[contact-form-7 id="20" title="footerform" html_class="Form Form--style1 Form--footerGeocron"]') ?>
 				
 			</li>
 			<li class="Section-items-item u-size4of24 contato u-paddingHorizontal--inter">
