@@ -53,23 +53,32 @@
 					<?php echo do_shortcode('[contact-form-7 id="20" title="footerform" html_class="Form Form--style1 Form--footerGeocron"]') ?>
 				
 			</li>
-			<li class="Section-items-item u-size4of24 contato u-paddingHorizontal--inter">
-				<header class="Section-items-item-header">
+			<li class="Section-items-item u-size5of24 contato u-paddingHorizontal--inter">
+				<header class="Section-items-item-header u-paddingBottom--inter--half">
 					<h4 class="Section-items-item-header-title">Contato</h4>
 				</header>
 				<div class="u-displayFlex">
-					<!-- <i class="FigureIcon FigureIcon--phone"> -->
+					<svg class="u-icon iconPhone">
+						<use xlink:href="#iconPhone"></use>
+					</svg>
 					<p class="Section-items-item-subtitle">(85)98872-2675</p>
 				</div>
 				<div class="u-displayFlex">
-					<!-- <i class="FigureIcon FigureIcon--mail"> -->
+					<svg class="u-icon iconEmail">
+						<use xlink:href="#iconEmail"></use>
+					</svg>
 					<p class="Section-items-item-resume">contato@geocron.com.br</p>
 				</div>
 				<div class="u-displayFlex">
-					<!-- <i class="FigureIcon FigureIcon--geo"> -->
+					<svg class="u-icon iconLocation">
+						<use xlink:href="#iconLocation"></use>
+					</svg>
 					<p class="Section-items-item-resume">Av. Izabel Bezerra, 334 - Ancuri</p>
 				</div>
 				<div class="u-displayFlex">
+					<svg class="u-icon iconCity">
+						<use xlink:href="#iconCity"></use>
+					</svg>
 					<p class="Section-items-item-resume">Fortaleza - CE</p>
 				</div>
 				<figure class="Section-items-item-figure">
