@@ -5,9 +5,8 @@
 	<div class="Section-content u-paddingVertical">
 		<ul class="Section-items u-sizeFull">
 			<?php
-				$service = get_terms("service-type");		
-			?>
-				<?php foreach ($service as $serv): ?>
+			$service = get_terms("service-type");		
+			foreach ($service as $serv): ?>
 				<li class="Section-items-item u-sizeFull">
 					<div class="Section-items-item-content u-sizeFull">
 						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
@@ -44,7 +43,10 @@
 									<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
 										<div class="u-displayFlex u-sizeFull">
 											<i class="FigureIcon FigureIcon--mais"></i>
-											<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo $name; ?></h4>
+												<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter">
+													<?php echo $name; ?> 
+												</h4>
+											
 										</div>
 										<p class="Section-items-item-list-point-content-resume"><?php echo $content; ?></p>
 									</div>
