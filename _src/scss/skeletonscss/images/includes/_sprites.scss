@@ -9,17 +9,17 @@
 //
 // At the bottom of this section, we provide information about the spritesheet itself
 // $spritesheet: width height image $spritesheet-sprites;
-$-figure-icon-estudos-name: 'FigureIcon--estudos';
-$-figure-icon-estudos-x: 0px;
-$-figure-icon-estudos-y: 0px;
-$-figure-icon-estudos-offset-x: 0px;
-$-figure-icon-estudos-offset-y: 0px;
-$-figure-icon-estudos-width: 125px;
-$-figure-icon-estudos-height: 158px;
-$-figure-icon-estudos-total-width: 375px;
-$-figure-icon-estudos-total-height: 182px;
-$-figure-icon-estudos-image: '../images/sprite.png';
-$-figure-icon-estudos: (0px, 0px, 0px, 0px, 125px, 158px, 375px, 182px, '../images/sprite.png', 'FigureIcon--estudos', );
+$-figure-icon-estudos-ambientais-name: 'FigureIcon--estudos-ambientais';
+$-figure-icon-estudos-ambientais-x: 0px;
+$-figure-icon-estudos-ambientais-y: 0px;
+$-figure-icon-estudos-ambientais-offset-x: 0px;
+$-figure-icon-estudos-ambientais-offset-y: 0px;
+$-figure-icon-estudos-ambientais-width: 125px;
+$-figure-icon-estudos-ambientais-height: 158px;
+$-figure-icon-estudos-ambientais-total-width: 375px;
+$-figure-icon-estudos-ambientais-total-height: 182px;
+$-figure-icon-estudos-ambientais-image: '../images/sprite.png';
+$-figure-icon-estudos-ambientais: (0px, 0px, 0px, 0px, 125px, 158px, 375px, 182px, '../images/sprite.png', 'FigureIcon--estudos-ambientais', );
 $-figure-icon-geo-name: 'FigureIcon--geo';
 $-figure-icon-geo-x: 0px;
 $-figure-icon-geo-y: 172px;
@@ -42,17 +42,17 @@ $-figure-icon-hidrogeologia-total-width: 375px;
 $-figure-icon-hidrogeologia-total-height: 182px;
 $-figure-icon-hidrogeologia-image: '../images/sprite.png';
 $-figure-icon-hidrogeologia: (125px, 0px, -125px, 0px, 125px, 158px, 375px, 182px, '../images/sprite.png', 'FigureIcon--hidrogeologia', );
-$-figure-icon-investiga-name: 'FigureIcon--investiga';
-$-figure-icon-investiga-x: 250px;
-$-figure-icon-investiga-y: 0px;
-$-figure-icon-investiga-offset-x: -250px;
-$-figure-icon-investiga-offset-y: 0px;
-$-figure-icon-investiga-width: 125px;
-$-figure-icon-investiga-height: 158px;
-$-figure-icon-investiga-total-width: 375px;
-$-figure-icon-investiga-total-height: 182px;
-$-figure-icon-investiga-image: '../images/sprite.png';
-$-figure-icon-investiga: (250px, 0px, -250px, 0px, 125px, 158px, 375px, 182px, '../images/sprite.png', 'FigureIcon--investiga', );
+$-figure-icon-investigacao-geotecnica-name: 'FigureIcon--investigacao-geotecnica';
+$-figure-icon-investigacao-geotecnica-x: 250px;
+$-figure-icon-investigacao-geotecnica-y: 0px;
+$-figure-icon-investigacao-geotecnica-offset-x: -250px;
+$-figure-icon-investigacao-geotecnica-offset-y: 0px;
+$-figure-icon-investigacao-geotecnica-width: 125px;
+$-figure-icon-investigacao-geotecnica-height: 158px;
+$-figure-icon-investigacao-geotecnica-total-width: 375px;
+$-figure-icon-investigacao-geotecnica-total-height: 182px;
+$-figure-icon-investigacao-geotecnica-image: '../images/sprite.png';
+$-figure-icon-investigacao-geotecnica: (250px, 0px, -250px, 0px, 125px, 158px, 375px, 182px, '../images/sprite.png', 'FigureIcon--investigacao-geotecnica', );
 $-figure-icon-mail-name: 'FigureIcon--mail';
 $-figure-icon-mail-x: 30px;
 $-figure-icon-mail-y: 158px;
@@ -100,7 +100,11 @@ $-figure-icon-phone: (40px, 158px, -40px, -158px, 11px, 9px, 375px, 182px, '../i
 $spritesheet-width: 375px;
 $spritesheet-height: 182px;
 $spritesheet-image: '../images/sprite.png';
-$spritesheet-sprites: ($-figure-icon-estudos, $-figure-icon-geo, $-figure-icon-hidrogeologia, $-figure-icon-investiga, $-figure-icon-mail, $-figure-icon-mais-yellow, $-figure-icon-mais, $-figure-icon-phone, );
+<<<<<<< HEAD
+$spritesheet-sprites: ($-figure-icon-estudos-ambientais, $-figure-icon-geo, $-figure-icon-hidrogeologia, $-figure-icon-investiga, $-figure-icon-mail, $-figure-icon-mais-yellow, $-figure-icon-mais, $-figure-icon-phone, );
+=======
+$spritesheet-sprites: ($-figure-icon-estudos-ambientais, $-figure-icon-geo, $-figure-icon-hidrogeologia, $-figure-icon-investigacao-geotecnica, $-figure-icon-mail, $-figure-icon-mais-yellow, $-figure-icon-mais, $-figure-icon-phone, );
+>>>>>>> dinamore
 $spritesheet: (375px, 182px, '../images/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
