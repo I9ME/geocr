@@ -12,7 +12,7 @@
 					<div class="Section-items-item-content u-sizeFull">
 						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-content-header-figure u-displayFlex">
-								<i class="FigureIcon FigureIcon--investiga"></i>
+								<i class="FigureIcon FigureIcon--<?php echo $term->slug; ?>"></i>
 							</div>
 							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h4>
 						</header>
@@ -59,7 +59,7 @@
 									<i class="FigureIcon FigureIcon--mais<?php if($looper % 2 == 0): echo '--yellow'; endif; ?>"></i>
 									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter u-paddingBottom--inter--half"><?php echo get_the_title(); ?></h4>
 								</div>
-								<p class="Section-items-item-list-point-content-resume u-size20of24">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</p>
+								<p class="Section-items-item-list-point-content-resume u-size20of24"><?php echo get_the_content(); ?></p>
 							</div>
 							<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 								<figure class="Section-items-item-list-point-content-figure">

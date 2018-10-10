@@ -6364,7 +6364,7 @@ th.u-isShown {
   list-style-type: circle;
 }
 
-.FigureIcon--estudos {
+.FigureIcon--estudos-ambientais {
   background-image: url(../images/sprite.png);
   background-position: 0px 0px;
   width: 125px;
@@ -6385,7 +6385,7 @@ th.u-isShown {
   height: 158px;
 }
 
-.FigureIcon--investiga {
+.FigureIcon--investigacao-geotecnica {
   background-image: url(../images/sprite.png);
   background-position: -250px 0px;
   width: 125px;
