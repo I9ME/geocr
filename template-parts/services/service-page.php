@@ -5,21 +5,14 @@
 	<div class="Section-content u-paddingVertical">
 		<ul class="Section-items u-sizeFull">
 			<?php
-				$terms = get_terms("service-type");		
+				$terms = get_terms(array(
+					'taxonomy'=>'service-type',
+					'hide_empty'=>'false',
+				));		
 			?>
-				<?php foreach ($terms as $term): ?>
-				<li class="Section-items-item u-sizeFull">
-					<div class="Section-items-item-content u-sizeFull">
-						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
-							<div class="Section-items-item-content-header-figure u-displayFlex">
-								<i class="FigureIcon FigureIcon--<?php echo $term->slug; ?>"></i>
-							</div>
-							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h4>
-						</header>
-					</div>
-					<ul class="Section-items-item-list u-sizeFull">
-						<?php 
-							$newsArgs = array (
+				<?php 
+				foreach ($terms as $term):
+					$newsArgs = array (
 								'post_type'	  => "service",
 								'posts_per_page'  => 20,
 								'tax_query' 	  => array(
@@ -35,6 +28,20 @@
 						                )
 							);
 
+					$newsLoop = new WP_Query( $newsArgs );
+					if($newsLoop->have_posts()){
+				?>
+				<li class="Section-items-item u-sizeFull">
+					<div class="Section-items-item-content u-sizeFull">
+						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+							<div class="Section-items-item-content-header-figure u-displayFlex">
+								<i class="FigureIcon FigureIcon--<?php echo $term->slug; ?>"></i>
+							</div>
+							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h4>
+						</header>
+					</div>
+					<ul class="Section-items-item-list u-sizeFull">
+						<?php 
 							$newsLoop = new WP_Query( $newsArgs );
 							
 							if ( $newsLoop->have_posts() ):
@@ -51,9 +58,6 @@
 									$slug = $post->post_name;
 									$name = $post->post_title;
 									$looper = $looper + 1;
-							
-
-
 						 ?>
 						<li class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
@@ -73,9 +77,15 @@
 					<?php endif; ?>
 					</ul>
 				</li>
-			<?php 
-				endforeach;
-			?>
+	<?php
+		}else{ 
+	?>
+			<h4>Nenhum Serviço Cadastro</h4>
+	<?php
+		}
+		endforeach;
+	?>
+			
 		</ul>
 	</div>
 </section>

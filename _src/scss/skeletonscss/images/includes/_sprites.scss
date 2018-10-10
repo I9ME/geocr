@@ -100,11 +100,7 @@ $-figure-icon-phone: (40px, 158px, -40px, -158px, 11px, 9px, 375px, 182px, '../i
 $spritesheet-width: 375px;
 $spritesheet-height: 182px;
 $spritesheet-image: '../images/sprite.png';
-<<<<<<< HEAD
-$spritesheet-sprites: ($-figure-icon-estudos-ambientais, $-figure-icon-geo, $-figure-icon-hidrogeologia, $-figure-icon-investiga, $-figure-icon-mail, $-figure-icon-mais-yellow, $-figure-icon-mais, $-figure-icon-phone, );
-=======
 $spritesheet-sprites: ($-figure-icon-estudos-ambientais, $-figure-icon-geo, $-figure-icon-hidrogeologia, $-figure-icon-investigacao-geotecnica, $-figure-icon-mail, $-figure-icon-mais-yellow, $-figure-icon-mais, $-figure-icon-phone, );
->>>>>>> dinamore
 $spritesheet: (375px, 182px, '../images/sprite.png', $spritesheet-sprites, );
 
 // The provided mixins are intended to be used with the array-like variables
