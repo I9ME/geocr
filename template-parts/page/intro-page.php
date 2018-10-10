@@ -16,6 +16,6 @@
 
 <?php } else { ?>
 
-
+<section class="Section Section--style1 Section--pageIntro"></section>
 
 <?php } ?>

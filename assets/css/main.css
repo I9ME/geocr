@@ -1377,14 +1377,9 @@ strong {
   color: #9d0a0e;
 }
 
-.Section--contatoPage {
-  padding-top: 30% !important;
-}
-
-@media screen and (min-width: 960px) {
-  .Section--contatoPage {
-    padding-top: 9% !important;
-  }
+.Section--pageIntro {
+  height: 10vh;
+  background: transparent;
 }
 
 .Section--contatoPage .Section-header-title {
@@ -1454,16 +1449,6 @@ strong {
   color: #000000;
 }
 
-.Section--sobrePage {
-  padding-top: 30% !important;
-}
-
-@media screen and (min-width: 960px) {
-  .Section--sobrePage {
-    padding-top: 7% !important;
-  }
-}
-
 .Section--sobrePage .Section-header-title {
   color: #f3ad13;
   font-size: 22px;
@@ -1505,16 +1490,6 @@ strong {
 @media screen and (min-width: 960px) {
   .Section--sobrePage .Section-content-items--first {
     padding-left: 2%;
-  }
-}
-
-.Section--servicesPage {
-  padding-top: 35% !important;
-}
-
-@media screen and (min-width: 960px) {
-  .Section--servicesPage {
-    padding-top: 11% !important;
   }
 }
 

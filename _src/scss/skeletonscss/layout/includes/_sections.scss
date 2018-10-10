@@ -1236,13 +1236,13 @@
 
 	//PÁGINAS DO GEOCRON
 
+	&--pageIntro{
+		height: 10vh;
+		background: transparent;
+	}
 	/*CONTATO*/
 
 	&--contatoPage{
-		padding-top: 30% !important;
-		@media screen and (min-width: $break-md){
-			padding-top: 9% !important;	
-		}
 		& .Section{
 			&-header{
 				&-title{
@@ -1306,12 +1306,7 @@
 			}
 		}
 	}
-	&--sobrePage{
-		padding-top: 30% !important;
-		@media screen and (min-width: $break-md){
-			padding-top: 7% !important;
-		}
-		
+	&--sobrePage{	
 		& .Section{
 			&-header{
 				&-title{
@@ -1362,10 +1357,6 @@
 		}
 	}
 	&--servicesPage{
-		padding-top: 35% !important;
-		@media screen and (min-width: $break-md){
-			padding-top: 11% !important;
-		}
 		
 		@media screen and (min-width: $break-md){
 			margin-left: 10%;
