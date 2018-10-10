@@ -5,21 +5,35 @@
 	<div class="Section-content u-paddingVertical">
 		<ul class="Section-items u-sizeFull">
 			<?php
-				$segmento = get_terms("service-type");		
+				$terms = get_terms("service-type");		
 			?>
-				<?php foreach ($segmento as $seg): ?>
+				<?php foreach ($terms as $term): ?>
 				<li class="Section-items-item u-sizeFull">
 					<div class="Section-items-item-content u-sizeFull">
 						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-content-header-figure u-displayFlex">
 								<i class="FigureIcon FigureIcon--investiga"></i>
 							</div>
-							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $seg->name; ?></h4>
+							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h4>
 						</header>
 					</div>
 					<ul class="Section-items-item-list u-sizeFull">
 						<?php 
-							$newsArgs = array( 'post_type' => 'service', 'posts_per_page' => 20, 'orderby'=> 'date', 'order' => 'ASC');
+							$newsArgs = array (
+								'post_type'	  => "service",
+								'posts_per_page'  => 20,
+								'tax_query' 	  => array(
+						                    array(
+						                        /**
+									 * For get a specific taxanomy use
+									 *'taxonomy' => 'category',
+									 */
+						                        'taxonomy' => 'service-type',
+						                        'field'    => 'slug',
+						                        'terms'    => $term->slug,
+						                    )
+						                )
+							);
 
 							$newsLoop = new WP_Query( $newsArgs );
 							
@@ -42,7 +56,7 @@
 							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
 								<div class="u-displayFlex u-sizeFull">
 									<i class="FigureIcon FigureIcon--mais"></i>
-									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo $name; ?></h4>
+									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo get_the_title(); ?></h4>
 								</div>
 								<p class="Section-items-item-list-point-content-resume">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</p>
 							</div>
