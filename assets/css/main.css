@@ -1555,20 +1555,25 @@ strong {
   }
 }
 
+.Section--servicesPage .Section-items-item-list-point:nth-child(odd) {
+  text-transform: uppercase;
+  color: #008c45;
+}
+
+.Section--servicesPage .Section-items-item-list-point:nth-child(even) {
+  text-transform: uppercase;
+  color: #f3ad13;
+}
+
 @media screen and (max-width: 768px) {
   .Section--servicesPage .Section-items-item-list-point-content {
     width: 100% !important;
   }
 }
 
-.Section--servicesPage .Section-items-item-list-point-content-title {
-  text-transform: uppercase;
-  color: #008c45;
-}
-
-.Section--servicesPage .Section-items-item-list-point-content-title--yellow {
-  text-transform: uppercase;
-  color: #f3ad13;
+.Section--servicesPage .Section-items-item-list-point-content-resume {
+  color: #555555;
+  text-transform: initial;
 }
 
 .page .Site-header {

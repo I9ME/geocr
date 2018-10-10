@@ -38,7 +38,7 @@
 							$newsLoop = new WP_Query( $newsArgs );
 							
 							if ( $newsLoop->have_posts() ):
-
+								$looper = 0;
 								while ( $newsLoop->have_posts() ) : $newsLoop->the_post();
 									//Imagem Destacada
 									global $post;	
@@ -48,6 +48,7 @@
 									$urlThumbnail = $urlThumbnail[0];
 									$slug = $post->post_name;
 									$name = $post->post_title;
+									$looper = $looper + 1;
 							
 
 
@@ -55,10 +56,10 @@
 						<li class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
 								<div class="u-displayFlex u-sizeFull">
-									<i class="FigureIcon FigureIcon--mais"></i>
-									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter"><?php echo get_the_title(); ?></h4>
+									<i class="FigureIcon FigureIcon--mais<?php if($looper % 2 == 0): echo '--yellow'; endif; ?>"></i>
+									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter u-paddingBottom--inter--half"><?php echo get_the_title(); ?></h4>
 								</div>
-								<p class="Section-items-item-list-point-content-resume">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</p>
+								<p class="Section-items-item-list-point-content-resume u-size20of24">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</p>
 							</div>
 							<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 								<figure class="Section-items-item-list-point-content-figure">
