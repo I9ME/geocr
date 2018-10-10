@@ -54,5 +54,5 @@
 		</ul>
 		<p class="Section-content-resume u-paddingTop--inter">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet, This Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega is photoshop's version of lorem ipsum, aliquet sit dolor amet sigma, jejuno ort ortega aliquet, This Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega is photoshop's version of lorem ipsum, aliquet sit dolor amet sigma, jejuno ort ortega aliquet, This Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega is photoshop's version of lorem ipsum, aliquet.</p>
 	</div>
-	<?php get_template_part('template-parts/orcamento/section','orcamento') ?>
+	<?php get_template_part('template-parts/fale-conosco/section','fale-conosco') ?>
 </section>

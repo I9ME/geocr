@@ -319,7 +319,49 @@ class Custom_Post_Type_Image_Upload {
 
 	register_post_type( "material", $args_materiais );*/
 
+	$labels_services = array(
+		"name" => __( "Serviços", "" ),
+		"singular_name" => __( "Serviço", "" ),
+		"menu_name" => __( "Serviços", "" ),
+		"all_items" => __( "Todos os serviços", "" ),
+		"add_new" => __( "Adicionar novo serviço", "" ),
+		"add_new_item" => __( "Adicionar novo serviço", "" ),
+		"edit_item" => __( "Editar serviço", "" ),
+		"new_item" => __( "Novo serviço", "" ),
+		"view_item" => __( "Visualizar serviço", "" ),
+		"view_items" => __( "Visualizar serviços", "" ),
+		"search_items" => __( "Pesquisar serviço", "" ),
+		"not_found" => __( "Sem resultados", "" ),
+		"not_found_in_trash" => __( "Sem resultados", "" ),
+		"parent_item_colon" => __( "Relacionados", "" ),
+		"featured_image" => __( "Imagem destacada", "" ),
+		"set_featured_image" => __( "Editar imagem destacada", "" ),
+		"remove_featured_image" => __( "Remover imagem destacada", "" ),
+		"parent_item_colon" => __( "Relacionados", "" ),
+	);
 
+	$args_services = array(
+		"label" => __( "Serviços", "" ),
+		"labels" => $labels_services,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "service", "with_front" => true ),
+		"query_var" => true,
+		"menu_icon" => "dashicons-media-document",
+		"supports" => array( "title", "editor", "thumbnail"),
+	);
+
+	register_post_type( "service", $args_services );
 
 	}
 
@@ -713,6 +755,23 @@ function create_my_taxonomies() {
             'show_admin_column' => true,
 			'query_var'         => true,
 			'rewrite' => array( 'slug' => 'categoria-video' ),
+			'hierarchical' => true,
+        )
+    );
+     register_taxonomy(
+        'service-type',
+        'service',
+        array(
+            'labels' => array(
+                'name' => 'Tipo de Serviço',
+                'add_new_item' => 'Adicionar novo Tipo de Serviço',
+                'new_item_name' => "Novo Tipo"
+            ),
+            'show_ui' => true,
+            'show_tagcloud' => false,
+            'show_admin_column' => true,
+			'query_var'         => true,
+			'rewrite' => array( 'slug' => 'service-type' ),
 			'hierarchical' => true,
         )
     );

@@ -1399,17 +1399,21 @@
 					}
 					&-list{
 						&-point{
+							&:nth-child(odd){
+								text-transform: uppercase;
+								color: $color_12;
+							}
+							&:nth-child(even){
+								text-transform: uppercase;
+								color: $color_3;
+							}
 							&-content{
 								@media screen and (max-width: $break-sm){
 									width: 100% !important;
 								}
-								&-title{
-									text-transform: uppercase;
-									color: $color_12;
-									&--yellow{
-										text-transform: uppercase;
-										color: $color_3;
-									}
+								&-resume{
+									color: $color_10;
+									text-transform: initial;
 								}
 							}
 						}
