@@ -24,6 +24,9 @@
 		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
 			<a class="NavigationLink Navigation-items-item-link u-positionRelative Item-level1 is-animating" href="<?php echo get_home_url()?>/contato">CONTATO</a>
 		</li>
+		<li class="Navigation-items-item Item Item-level1 u-flex u-flexAlignCenter is-animating">
+			<a class="NavigationLink Navigation-items-item-link u-positionRelative Item-level1 is-animating" href="<?php echo get_home_url()?>/clientes">CLIENTES</a>
+		</li>
 		
 		
 	</ul>
