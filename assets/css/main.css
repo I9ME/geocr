@@ -1555,6 +1555,10 @@ strong {
   border-bottom: 1px solid #DDDDDD;
 }
 
+.Section--clientesPage .Section-items-item:last-child {
+  border-bottom: 0px;
+}
+
 @media screen and (min-width: 960px) {
   .Section--clientesPage .Section-items-item-content {
     padding-left: 4%;

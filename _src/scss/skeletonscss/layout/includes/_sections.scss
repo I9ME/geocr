@@ -1418,6 +1418,9 @@
 			&-items{
 				&-item{
 					border-bottom: 1px solid $color_14;
+					&:last-child{
+						border-bottom:0px;
+					};
 					&-content{
 						@media screen and (min-width: $break-md){
 							padding-left: 4%;

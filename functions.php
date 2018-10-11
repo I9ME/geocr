@@ -363,6 +363,52 @@ class Custom_Post_Type_Image_Upload {
 
 	register_post_type( "service", $args_services );
 
+
+	$labels_clientes = array(
+		"name" => __( "Clientes", "" ),
+		"singular_name" => __( "Cliente", "" ),
+		"menu_name" => __( "Clientes", "" ),
+		"all_items" => __( "Todos os clientes", "" ),
+		"add_new" => __( "Adicionar novo cliente", "" ),
+		"add_new_item" => __( "Adicionar novo cliente", "" ),
+		"edit_item" => __( "Editar cliente", "" ),
+		"new_item" => __( "Novo cliente", "" ),
+		"view_item" => __( "Visualizar cliente", "" ),
+		"view_items" => __( "Visualizar clientes", "" ),
+		"search_items" => __( "Pesquisar cliente", "" ),
+		"not_found" => __( "Sem resultados", "" ),
+		"not_found_in_trash" => __( "Sem resultados", "" ),
+		"parent_item_colon" => __( "Relacionados", "" ),
+		"featured_image" => __( "Imagem destacada", "" ),
+		"set_featured_image" => __( "Editar imagem destacada", "" ),
+		"remove_featured_image" => __( "Remover imagem destacada", "" ),
+		"parent_item_colon" => __( "Relacionados", "" ),
+	);
+
+	$args_clientes = array(
+		"label" => __( "Clientes", "" ),
+		"labels" => $labels_clientes,
+		"description" => "",
+		"public" => true,
+		"publicly_queryable" => true,
+		"show_ui" => true,
+		"show_in_rest" => false,
+		"rest_base" => "",
+		"has_archive" => false,
+		"show_in_menu" => true,
+		"exclude_from_search" => false,
+		"capability_type" => "post",
+		"map_meta_cap" => true,
+		"hierarchical" => false,
+		"rewrite" => array( "slug" => "service", "with_front" => true ),
+		"query_var" => true,
+		"menu_icon" => "dashicons-businessman",
+		"supports" => array( "title", "editor", "thumbnail"),
+	);
+
+	register_post_type( "cliente", $args_clientes );
+
+
 	}
 
 //==========================================
