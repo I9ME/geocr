@@ -1413,6 +1413,35 @@
 			}
 		}
 	}
+	&--clientesPage{
+		& .Section{
+			&-items{
+				&-item{
+					border-bottom: 1px solid $color_14;
+					&-content{
+						@media screen and (min-width: $break-md){
+							padding-left: 4%;
+						}
+						&-title{
+							color: $color_3;
+							font-size:25px;
+						}
+						&-subtitle{
+							color: $color_21;
+							text-transform: uppercase;
+							font-size: 15px;
+							padding-bottom: 2%;
+						}
+						&-resume{
+							font-style: italic;
+							font-weight:600;
+							letter-spacing: 1px;
+						}
+					}
+				}
+			}
+		}
+	}
 
 	// end class .Section
 	}			

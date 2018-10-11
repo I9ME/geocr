@@ -1551,6 +1551,34 @@ strong {
   text-transform: initial;
 }
 
+.Section--clientesPage .Section-items-item {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--clientesPage .Section-items-item-content {
+    padding-left: 4%;
+  }
+}
+
+.Section--clientesPage .Section-items-item-content-title {
+  color: #f3ad13;
+  font-size: 25px;
+}
+
+.Section--clientesPage .Section-items-item-content-subtitle {
+  color: #3c983f;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-bottom: 2%;
+}
+
+.Section--clientesPage .Section-items-item-content-resume {
+  font-style: italic;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
 .page .Site-header {
   background: #3c983f;
 }
