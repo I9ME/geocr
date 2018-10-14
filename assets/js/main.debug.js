@@ -447,10 +447,10 @@ $('#historia-carousel').owlCarousel({
         }
     }
 })
-
-$('#services-carousel').owlCarousel({
+$('.service-carousel').owlCarousel({
     loop:true,
     margin:50,
+    dots:false,
     responsiveClass:true,
     responsive:{
         0:{
@@ -459,14 +459,14 @@ $('#services-carousel').owlCarousel({
             dots:false
         },
         600:{
-            items:1,
-            nav:false,
-            dots:false
+            items:2,
+            nav:false
         },
         1000:{
             items:2,
-            loop:false,
-            dots:false
+            nav:false,
+            dots:false,
+            loop:false
         }
     }
 })

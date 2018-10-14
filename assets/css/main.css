@@ -1081,7 +1081,11 @@ strong {
 }
 
 .Section--services .Section-items-item {
-  border-bottom: 1px solid #999999;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.Section--services .Section-items-item:last-child {
+  border-bottom: none;
 }
 
 .Section--services .Section-items-item-content-title {
@@ -1093,11 +1097,33 @@ strong {
 
 .Section--services .Section-items-item-list-point {
   box-shadow: 0px 0px 18px -2px black;
+  overflow: hidden;
+  border-radius: 10%;
+}
+
+.Section--services .Section-items-item-list-point-figure {
+  overflow: hidden;
 }
 
 .Section--services .Section-items-item-list-point-black {
-  height: 150px;
+  height: 100px;
+  width: 100%;
   background: black;
+  display: block;
+  top: -18px;
+  position: absolute;
+  transform: skew(-50deg, 15deg) rotate(-5deg);
+  border-bottom-right-radius: 75px;
+  background: #000;
+  z-index: 1;
+  overflow: hidden;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--services .Section-items-item-list-point-black {
+    width: 122%;
+    transform: skew(-43deg, 15deg) rotate(-5deg);
+  }
 }
 
 .Section--services .Section-items-item-list-point-figcaption {
@@ -1106,15 +1132,16 @@ strong {
   width: 100%;
   font-size: 15px;
   display: block;
-  position: absolute;
+  position: relative;
   bottom: 0;
-  height: 73px;
+  height: 142px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 4%;
   font-style: italic;
+  z-index: -1;
 }
 
 .Section--sobre {
