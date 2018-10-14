@@ -1088,6 +1088,33 @@ strong {
   text-transform: uppercase;
   color: #f3ad13;
   letter-spacing: 1px;
+  font-size: 16px;
+}
+
+.Section--services .Section-items-item-list-point {
+  box-shadow: 0px 0px 18px -2px black;
+}
+
+.Section--services .Section-items-item-list-point-black {
+  height: 150px;
+  background: black;
+}
+
+.Section--services .Section-items-item-list-point-figcaption {
+  background-color: #FFFFFF;
+  color: #000000;
+  width: 100%;
+  font-size: 15px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  height: 73px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 4%;
+  font-style: italic;
 }
 
 .Section--sobre {
