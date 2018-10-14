@@ -1105,14 +1105,23 @@ strong {
   overflow: hidden;
 }
 
+.Section--services .Section-items-item-list-point-title {
+  margin-left: 30px;
+  margin-right: 30px;
+  text-align: center;
+  color: #000000;
+  font-size: 15px;
+  font-style: italic;
+}
+
 .Section--services .Section-items-item-list-point-black {
-  height: 100px;
+  height: 141px;
   width: 100%;
   background: black;
   display: block;
   top: -18px;
   position: absolute;
-  transform: skew(-50deg, 15deg) rotate(-5deg);
+  transform: skew(-31deg, 15deg) rotate(-5deg);
   border-bottom-right-radius: 75px;
   background: #000;
   z-index: 1;
@@ -1121,6 +1130,7 @@ strong {
 
 @media screen and (min-width: 960px) {
   .Section--services .Section-items-item-list-point-black {
+    height: 100px;
     width: 122%;
     transform: skew(-43deg, 15deg) rotate(-5deg);
   }
@@ -1128,9 +1138,7 @@ strong {
 
 .Section--services .Section-items-item-list-point-figcaption {
   background-color: #FFFFFF;
-  color: #000000;
   width: 100%;
-  font-size: 15px;
   display: block;
   position: relative;
   bottom: 0;
@@ -1140,8 +1148,14 @@ strong {
   justify-content: flex-end;
   align-items: center;
   padding-bottom: 4%;
-  font-style: italic;
   z-index: -1;
+  height: 200px;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--services .Section-items-item-list-point-figcaption {
+    height: 163px;
+  }
 }
 
 .Section--sobre {
@@ -7037,6 +7051,11 @@ div.wpcf7 .ajax-loader {
   bottom: -35px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+.owl-stage {
+  padding-bottom: 4%;
+  padding-top: 4%;
 }
 
 /*--------------------------------------------------------------
