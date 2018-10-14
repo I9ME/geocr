@@ -448,7 +448,7 @@ $('#historia-carousel').owlCarousel({
     }
 })
 
-$('.services-carousel').owlCarousel({
+$('#services-carousel').owlCarousel({
     loop:true,
     margin:50,
     responsiveClass:true,

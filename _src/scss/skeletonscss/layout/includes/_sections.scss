@@ -950,76 +950,17 @@
 		& .Section{
 			&-items{
 				&-item{
-					&-figure{
-						&-carroselFig{
-							margin: 0;
-    						line-height: 0;
-    						position: relative;
-							&-figCaption{
-								position: absolute;
-								bottom: 0;
-								right: 0;
-								z-index: 1;
-								height: 63px;
-								background: $color_1;
-								width: 100%;
-								font-size: 13px;
-								@media screen and (min-width: $break-md){
-									background: transparent;
-								}
-							    &:before{
-									@media screen and (min-width: $break-md){
-										display: block;
-									    margin-left: -60px;
-									    content: "";
-								/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
-										-moz-transform: skew(-23deg, 24deg) rotate(0deg);
-										-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
-										transform: skew(0deg, 0deg) rotate(0deg);
-										background: $color_21;
-										z-index: -1;
-										border-top-right-radius:26%;
-										background: $color_1;
-									    position: absolute;
-									    height: 65px;
-									    bottom: -7;
-									    right: 0;
-									    width: 112%;
-									}
-								}
-							}
-						}
-					}
-					&-resume{
-						z-index: 2;
-						font-size: 12px;
-					}
-					@media screen and (min-width: $break-md){
-						padding-left: 5%;
-						padding-right: 5%;
-					}
-					&-title{
-						@media screen and (min-width: $break-md){
-							text-align: left;
-						}
-						color: $color_3;
-						text-transform: uppercase;
-					}
+					border-bottom: 1px solid $color_9;
 					&-content{
-						justify-content: flex-start;
-						&-container{
-								@media screen and (min-width: $break-md){
-								display: flex;
-								flex-direction: column;
-								justify-content: center;
-								padding-left: 5%;
-							}
+						&-title{
+							text-transform: uppercase;
+							color: $color_3;
+							letter-spacing: 1px;
 						}
 					}
 				}
 			}
 		}
-
 	}
 	&--sobre{
 		background:$color_12;
