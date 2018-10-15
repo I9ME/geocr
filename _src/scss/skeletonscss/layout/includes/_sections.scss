@@ -1028,7 +1028,7 @@
 		}
 		&:before{
 			@media screen and (min-width: $break-md){
-				box-shadow: 15px 16px 62px -31px $color_11;
+				box-shadow: 15px 16px 62px -31px rgba(0,0,0,0.6);
 				display: block;
 				min-height: 550px;
 			    width: 100%;

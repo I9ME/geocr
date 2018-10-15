@@ -1171,7 +1171,7 @@ strong {
 
 @media screen and (min-width: 960px) {
   .Section--sobre:before {
-    box-shadow: 15px 16px 62px -31px #000000;
+    box-shadow: 15px 16px 62px -31px rgba(0, 0, 0, 0.6);
     display: block;
     min-height: 550px;
     width: 100%;
