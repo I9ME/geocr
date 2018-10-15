@@ -4072,7 +4072,7 @@ th.u-isShown {
     color: #FFFFFF;
     font-weight: lighter;
     font-size: 13px;
-    letter-spacing: normal;
+    letter-spacing: 1px;
     font-weight: bold;
   }
   .Navigation--menu--style2 .Navigation-items-item .NavigationLink:hover {
@@ -4406,10 +4406,8 @@ th.u-isShown {
 
 .Navigation-items-item-link {
   color: #FFFFFF;
-  letter-spacing: 2px;
-  font-size: 13px;
   text-transform: uppercase;
-  font-weight: normal !important;
+  font-weight: bold !important;
 }
 
 .Navigation-items-item-link:hover {

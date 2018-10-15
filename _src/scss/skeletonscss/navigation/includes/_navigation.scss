@@ -318,7 +318,7 @@
 							color: $color_1;
 							font-weight: lighter;
 							font-size: 13px;
-							letter-spacing: normal;
+							letter-spacing: 1px;
 							font-weight: bold;
 							&:hover{
 								color: $color_3;
@@ -672,10 +672,8 @@
 		&-item{
 			&-link{
 				color: $color_1;
-				letter-spacing: 2px;
-				font-size: 13px;
 				text-transform: uppercase;
-				font-weight: normal !important;
+				font-weight: bold !important;
 				&:hover{
 					color: $color_3;
 				}
