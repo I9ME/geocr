@@ -4358,6 +4358,8 @@ th.u-isShown {
 .NavigationButton-icon {
   height: 58px;
   margin: 0px;
+  font-size: 30px;
+  color: #fff;
 }
 
 .NavigationButton--login {

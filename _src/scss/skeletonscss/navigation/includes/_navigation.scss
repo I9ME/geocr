@@ -598,8 +598,10 @@
 	    padding-right: 20px;
 	}
 	&-icon{
-		height: 58px;
-		margin: 0px;
+	    height: 58px;
+	    margin: 0px;
+	    font-size: 30px;
+	    color: #fff;
 	}
 	&--login{
 		color: $color_1;
