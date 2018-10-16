@@ -59,7 +59,7 @@
 									$name = $post->post_title;
 									$looper = $looper + 1;
 						 ?>
-						<li class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+						<li id="<?php echo $slug; ?>" class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
 								<div class="u-displayFlex u-sizeFull">
 									<i class="FigureIcon FigureIcon--mais<?php if($looper % 2 == 0): echo '--yellow'; endif; ?>"></i>

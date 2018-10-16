@@ -1336,12 +1336,21 @@ strong {
 }
 
 .Section--footer .Section-items-item-list {
-  color: #000000;
-  font-weight: 300;
+  color: #000000 !important;
 }
 
 .Section--footer .Section-items-item-list-point {
   list-style: initial;
+}
+
+.Section--footer .Section-items-item-list-point-link {
+  font-weight: normal;
+  color: #000000;
+}
+
+.Section--footer .Section-items-item-list-point-link:hover {
+  color: #008c45;
+  font-weight: bold;
 }
 
 .Section--footer .Form-input {

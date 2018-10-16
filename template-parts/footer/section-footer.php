@@ -4,47 +4,65 @@
 	</header>
 	<div class="Section-content">
 		<ul class="Section-items u-marginVertical u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+			<?php
+				$terms = get_terms(array(
+					'taxonomy'=>'service-type',
+					'hide_empty'=>'false',
+				));		
+			?>
+				<?php 
+				foreach ($terms as $term):
+					$newsArgs = array (
+								'post_type'	  => "service",
+								'posts_per_page'  => 20,
+								'tax_query' 	  => array(
+						                    array(
+						                        /**
+									 * For get a specific taxanomy use
+									 *'taxonomy' => 'category',
+									 */
+						                        'taxonomy' => 'service-type',
+						                        'field'    => 'slug',
+						                        'terms'    => $term->slug,
+						                    )
+						                )
+							);
+
+					$newsLoop = new WP_Query( $newsArgs );
+					if($newsLoop->have_posts()){
+				?>
 			<li class="Section-items-item u-size4of24 invest-geotecnica u-paddingHorizontal--inter">
 				<header class="Section-items-item-header">
-					<h4 class="Section-items-item-header-title">Investigação Geotécnica</h4>
+					<h4 class="Section-items-item-header-title"><?php echo $term->name; ?></h4>
 				</header>
 				<ul class="Section-items-item-list">
-					<li class="Section-items-item-list-point">Sondagem à percussão - SPT</a></li>
-					<li class="Section-items-item-list-point">Sondagem à percussão com torque - SPT-T</li>
-					<li class="Section-items-item-list-point">Sondagem à trado - ST</li>
-					<li class="Section-items-item-list-point">Coleta de amostras deformadas e indeformadas</li>
-					<li class="Section-items-item-list-point">Ensaio de permeabilidade</li>
-					<li class="Section-items-item-list-point">Ensaio de absorção</li>
-					<li class="Section-items-item-list-point">Poços de inspeção</li>
-					<li class="Section-items-item-list-point">Instalação de piezômetros</li>
-					<li class="Section-items-item-list-point">Instalação de indicadores de nível d'água</li>
-					<li class="Section-items-item-list-point">Mapeamento geológico geotécnico</li>	
+					<?php 
+					while ( $newsLoop->have_posts() ) : $newsLoop->the_post();
+						//Imagem Destacada
+						global $post;	
+						$image_id = get_post_thumbnail_id();
+						$sizeThumbs = 'thumbnail';
+						$urlThumbnail = wp_get_attachment_image_src($image_id, $sizeThumbs);
+						$urlThumbnail = $urlThumbnail[0];
+						$id = $post->ID;
+						$category = get_the_terms($id, 'service-type')[0];
+						$slug = $post->post_name;
+						$name = $post->post_title;
+					 ?>
+					<li class="Section-items-item-list-point">
+						<a class="Section-items-item-list-point-link is-animating" href="<?php echo get_home_url() ?>/servicos/#<?php echo $slug; ?>"><?php echo $name; ?></a>
+					</li>
+				<?php endwhile; ?>
 				</ul>
 			</li>
-			<li class="Section-items-item u-size4of24 hidrogeologia-e-estudos-ambientais u-paddingHorizontal--inter">
-				<div class="Section-items-item-content u-sizeFull u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header">
-						<h4 class="Section-items-item-header-title">Hidrogeologia</h4>
-					</header>
-					<ul class="Section-items-item-list">
-						<li class="Section-items-item-list-point">Licença de perfuração</li>
-						<li class="Section-items-item-list-point">Outorga de recursos hídricos</li>
-						<li class="Section-items-item-list-point">Análise de qualidade d'água</li>
-						<li class="Section-items-item-list-point">Teste de vazão</li>
-						<li class="Section-items-item-list-point">Estudos hidrogeológicos</li>	
-					</ul>
-				</div>
-				<div class="Section-items-item-content u-sizeFull u-paddingHorizontal--inter--half">
-					<header class="Section-items-item-header">
-						<h4 class="Section-items-item-header-title">Estudos Ambientais</h4>
-					</header>
-					<ul class="Section-items-item-list">
-						<li class="Section-items-item-list-point">Licenciamento Ambiental</li>
-						<li class="Section-items-item-list-point">Gerenciamento de resíduos sólidos</li>
-						<li class="Section-items-item-list-point">Sondagens Ambientais</li>	
-					</ul>
-				</div>
-			</li>
+		<?php }else{ ?>
+
+			<li>Nenhum Serviço Cadastrado.</li>
+
+		<?php } ?>
+
+		<?php endforeach; ?>
+
 			<li class="Section-items-item u-size4of24 orcamento u-paddingHorizontal--inter">
 				<header class="Section-items-item-header">
 					<h4 class="Section-items-item-header-title">Orçamento</h4>

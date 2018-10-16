@@ -1195,10 +1195,18 @@
 						}
 					}
 					&-list{
-						color: $color_11;
-						font-weight: 300;
+						color: $color_11 !important;
 						&-point{
 							list-style: initial;
+							&-link{
+								font-weight: normal;
+								color: $color_11;
+								&:hover{
+									color:$color_12;
+									font-weight: bold;
+
+								}
+							}
 						}
 					}
 				}
