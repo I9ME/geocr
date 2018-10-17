@@ -20,7 +20,11 @@
 		}
 		background: transparent;
 		@media screen and (max-width: $break-sm){
-			background: $color_21;
+		    background: url(../images/bg-home.png) no-repeat;
+		    z-index: 0;
+		    background-size: cover;
+		    background-attachment: fixed;
+		    background-position: -386px 0px;
 		}
 			& .before{
 			@media screen and (min-width: $break-md){
