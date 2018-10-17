@@ -1141,22 +1141,19 @@
 		}
 		&:before{
 			@media screen and (min-width: $break-md){
-				display: block;
-				min-height: 550px;
-			    width: 200%;
-			    margin-left: -60px;
+			    display: block;
+			    min-height: 623px;
+			    width: 180%;
+			    margin-left: 256px;
 			    position: absolute;
-			    bottom: -350px;
+			    bottom: -241px;
 			    left: -217px;
 			    content: "";
-		/*		-webkit-transform: skew(-23deg, 24deg) rotate(0deg);
-				-moz-transform: skew(-23deg, 24deg) rotate(0deg);
-				-o-transform: skew(-23deg, 24deg) rotate(0deg);*/
-				transform: skew(-71deg, 20deg) rotate(-1deg);
-				border-bottom-right-radius: 75px;
-				border-top-left-radius: 75px;
-				background:$color_3;
-				z-index: -1;
+			    transform: skew(-60deg, 18deg) rotate(-9deg);
+			    border-bottom-right-radius: 75px;
+			    border-top-left-radius: 75px;
+			    background: #f3ad13;
+			    z-index: -1;
 			}
 		}
 		& .Section{
