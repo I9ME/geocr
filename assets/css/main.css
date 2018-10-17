@@ -1593,7 +1593,7 @@ strong {
 }
 
 .Site-header {
-  position: absolute;
+  position: fixed;
   overflow: hidden;
   clear: both;
   padding-top: 9.375px;
@@ -1663,7 +1663,11 @@ strong {
 
 @media screen and (max-width: 768px) {
   .Intro--home {
-    background: #3c983f;
+    background: url(../images/bg-home.png) no-repeat;
+    z-index: 0;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: -386px 0px;
   }
 }
 
