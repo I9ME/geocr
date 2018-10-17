@@ -1541,6 +1541,14 @@ strong {
   }
 }
 
+.Section--servicesPage .Section-items-item-list-point {
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.Section--servicesPage .Section-items-item-list-point:last-child {
+  border-bottom: none;
+}
+
 .Section--servicesPage .Section-items-item-list-point:nth-child(odd) {
   text-transform: uppercase;
   color: #008c45;
@@ -1560,6 +1568,14 @@ strong {
 .Section--servicesPage .Section-items-item-list-point-content-resume {
   color: #555555;
   text-transform: initial;
+  font-style: italic;
+  font-weight: normal;
+}
+
+@media screen and (min-width: 960px) {
+  .Section--servicesPage .Section-items-item-list-point-content-resume {
+    padding: 0;
+  }
 }
 
 .Section--clientesPage .Section-items-item {

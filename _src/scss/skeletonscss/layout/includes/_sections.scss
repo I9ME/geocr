@@ -1400,6 +1400,10 @@
 					}
 					&-list{
 						&-point{
+							border-bottom: 1px solid $color_14;
+							&:last-child{
+								border-bottom:none;
+							}
 							&:nth-child(odd){
 								text-transform: uppercase;
 								color: $color_12;
@@ -1415,6 +1419,11 @@
 								&-resume{
 									color: $color_10;
 									text-transform: initial;
+									font-style: italic;
+									font-weight: normal;
+									@media screen and (min-width: $break-md){
+										padding:0;
+									}
 								}
 							}
 						}

@@ -31,7 +31,7 @@
 					$newsLoop = new WP_Query( $newsArgs );
 					if($newsLoop->have_posts()){
 				?>
-				<li class="Section-items-item u-sizeFull">
+				<li class="Section-items-item u-sizeFull u-paddingHorizontal--inter">
 					<div class="Section-items-item-content u-sizeFull">
 						<header class="Section-items-item-content-header u-paddingBottom--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
 							<div class="Section-items-item-content-header-figure u-displayFlex">
@@ -59,13 +59,13 @@
 									$name = $post->post_title;
 									$looper = $looper + 1;
 						 ?>
-						<li id="<?php echo $slug; ?>" class="Section-items-item-list-point u-paddingHorizontal--inter--half u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
-							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingBottom--inter--half u-size20of24">
+						<li id="<?php echo $slug; ?>" class="Section-items-item-list-point u-paddingHorizontal--inter u-displayFlex u-flexDirectionColumn u-flexSwitchRow">
+							<div class="Section-items-item-list-point-content Section-items-item-list-point-content--paddingDesktop u-paddingHorizontal--inter--half u-size20of24">
 								<div class="u-displayFlex u-sizeFull">
 									<i class="FigureIcon FigureIcon--mais<?php if($looper % 2 == 0): echo '--yellow'; endif; ?>"></i>
 									<h4 class="Section-items-item-list-point-content-title u-sizeFull u-paddingLeft--inter u-paddingBottom--inter--half"><?php echo get_the_title(); ?></h4>
 								</div>
-								<p class="Section-items-item-list-point-content-resume u-size20of24"><?php echo get_the_content(); ?></p>
+								<p class="Section-items-item-list-point-content-resume u-paddingHorizontal--inter u-size20of24"><?php echo get_the_content(); ?></p>
 							</div>
 							<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 								<figure class="Section-items-item-list-point-content-figure">
