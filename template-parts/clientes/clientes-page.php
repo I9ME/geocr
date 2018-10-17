@@ -1,7 +1,6 @@
 <section class="Section Section--style1 Section--clientesPage u-paddingHorizontal u-paddingVertical">
 	<header class="Section-header u-alignCenter">
-		<h3 class="Section-header-title Section-header-title--beforeTitleLine">Clientes</h3>
-		<p class="Section-header"></p>
+		<h1 class="Section-header-title Section-header-title--beforeTitleLine">Clientes</h1>
 	</header>
 	<ul class="Section-items u-flexDirectionColumn u-displayFlex u-flexAlignItemsCenter u-flexJustifyContentCenter u-paddingVertical">
 		<?php 
@@ -32,8 +31,8 @@
 				<img class="u-sizeFull u-height4of10" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 			</figure>
 			<div class="Section-items-item-content u-size16of24">
-				<h4 class="Section-items-item-content-title u-paddingBottom--inter--half"><?php echo get_the_title() ?></h4>
-				<h5 class="Section-items-item-content-subtitle">Serviços prestados:</h5>
+				<h3 class="Section-items-item-content-title u-paddingBottom--inter--half"><?php echo get_the_title() ?></h3>
+				<h4 class="Section-items-item-content-subtitle">Serviços prestados:</h4>
 				<p class="Section-items-item-content-resume"><?php 	echo get_the_content(); ?></p>
 			</div>
 		</li>

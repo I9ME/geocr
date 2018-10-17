@@ -977,6 +977,7 @@
 								color: $color_11;
 								font-size: 15px;
 								font-style: italic;
+								font-weight: normal;
 							}
 							&-black{
 							    height: 141px;
@@ -1094,7 +1095,7 @@
 
 	}
 
-	&--orcamento{
+	&--faleConosco{
 		& .Section{
 			&-header{
 				&-title{
@@ -1111,6 +1112,9 @@
 							background:$color_3;
 						}
 					}
+				}
+				&-resume{
+					font-weight: normal;
 				}
 			}
 		}
@@ -1351,6 +1355,7 @@
 				&-items{
 					&-subtitle{
 						text-transform: uppercase;
+						font-size: 15px;
 					}
 					&--first{
 						@media screen and (min-width: $break-md){

@@ -56,7 +56,7 @@
 								<figure class="Section-items-item-list-point-figure">
 									<figcaption class="Section-items-item-list-point-figcaption">
 										<div class="Section-items-item-list-point-black"></div>
-										<p class="Section-items-item-list-point-title"><?php echo get_the_title(); ?></p>
+										<h5 class="Section-items-item-list-point-title"><?php echo get_the_title(); ?></h5>
 									</figcaption>
 								</figure>
 							</li>

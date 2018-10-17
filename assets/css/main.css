@@ -1112,6 +1112,7 @@ strong {
   color: #000000;
   font-size: 15px;
   font-style: italic;
+  font-weight: normal;
 }
 
 .Section--services .Section-items-item-list-point-black {
@@ -1226,7 +1227,7 @@ strong {
   }
 }
 
-.Section--orcamento .Section-header-title {
+.Section--faleConosco .Section-header-title {
   text-transform: uppercase !important;
   padding-bottom: 7px;
   color: #008c45 !important;
@@ -1234,29 +1235,33 @@ strong {
   font-size: 15px !important;
 }
 
-.Section--orcamento .Section-header-title--beforeTitleLine:before {
+.Section--faleConosco .Section-header-title--beforeTitleLine:before {
   left: 50% !important;
   transform: translateX(-50%) !important;
   width: 65px;
   background: #f3ad13;
 }
 
-.Section--orcamento .Button {
+.Section--faleConosco .Section-header-resume {
+  font-weight: normal;
+}
+
+.Section--faleConosco .Button {
   background: #008c45;
   color: #FFFFFF;
 }
 
-.Section--orcamento .Button--border {
+.Section--faleConosco .Button--border {
   border-color: rgba(0, 0, 0, 0);
 }
 
-.Section--orcamento .Button--border.hover:hover {
+.Section--faleConosco .Button--border.hover:hover {
   background: #f3ad13;
   border-color: #f3ad13;
   color: #9d0a0e;
 }
 
-.Section--orcamento .name_2, .Section--orcamento .tel_2, .Section--orcamento .mail_2 {
+.Section--faleConosco .name_2, .Section--faleConosco .tel_2, .Section--faleConosco .mail_2 {
   display: flex;
   justify-content: center;
 }
@@ -1490,6 +1495,7 @@ strong {
 
 .Section--sobrePage .Section-content-items-subtitle {
   text-transform: uppercase;
+  font-size: 15px;
 }
 
 @media screen and (min-width: 960px) {

@@ -4,8 +4,8 @@
 			<img class="u-objectFitCover u-height5of10 u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
 		</figure>
 		<div class="Section-content-items Section-content-items--first u-size12of24 u-paddingHorizontal--inter--half">
-			<h3 class="Section-header-title Section-header-title--beforeTitleLine">Frase de impacto sobre<br>a empresa até 2 linhas!</h3>
-			<h4 class="Section-content-items-subtitle u-paddingTop--inter">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</h4>
+			<h1 class="Section-header-title Section-header-title--beforeTitleLine">Frase de impacto sobre<br>a empresa até 2 linhas!</h1>
+			<h2 class="Section-content-items-subtitle u-paddingTop--inter">This is photoshop's version of lorem ipsum. Proin gravida nibth bell, sit dolor amet sigma, jejuno ort ortega aliquet.</h2>
 		</div>
 	</div>
 	<div class="Section-content u-sizeFull u-displayFlex u-flexDirectionColumn u-flexSwitchRow u-sizeFull u-paddingVertical u-paddingTop--inter--half u-paddingBottom--inter">

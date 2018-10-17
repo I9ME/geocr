@@ -1,6 +1,6 @@
 <section class="Section Section--style1 Section--servicesPage u-paddingHorizontal u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
 	<header class="Section-header u-paddingBottom--inter">
-		<h3 class="Section-header-title Section-header-title--beforeTitleLine u-alignCenter">Serviços</h3>
+		<h1 class="Section-header-title Section-header-title--beforeTitleLine u-alignCenter">Serviços</h1>
 	</header>
 	<div class="Section-content u-paddingVertical">
 		<ul class="Section-items u-sizeFull">
@@ -37,7 +37,7 @@
 							<div class="Section-items-item-content-header-figure u-displayFlex">
 								<i class="FigureIcon FigureIcon--<?php echo $term->slug; ?>"></i>
 							</div>
-							<h4 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h4>
+							<h3 class="Section-items-item-content-header-title u-sizeFull u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter"><?php echo $term->name; ?></h3>
 						</header>
 					</div>
 					<ul class="Section-items-item-list u-sizeFull">
