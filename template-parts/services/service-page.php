@@ -69,7 +69,7 @@
 							</div>
 							<div class="Section-items-item-list-point-content u-paddingBottom--inter--half u-size6of24">
 								<figure class="Section-items-item-list-point-content-figure">
-									<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/black.png">
+									<img class="u-sizeFull" src="<?php echo get_template_directory_uri() ?>/assets/images/vetor-servico<?php if($looper % 2 == 0): echo '-yellow'; endif; ?>.png">
 								</figure>
 							</div>
 						</li>
