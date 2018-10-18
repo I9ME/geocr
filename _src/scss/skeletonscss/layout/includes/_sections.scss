@@ -400,10 +400,11 @@
 					padding-bottom: 7px;
 					color: $color_12;
 					letter-spacing: 1px;
-					font-size: 15px;
+					font-size: $font_size_title_section;
 					&--beforeTitleLine{
 						&:before{
 							left: 50%;
+							height: 3px;
 							transform: translateX(-50%);
 							width: 65px;
 							background:$color_3;
@@ -1053,7 +1054,6 @@
 					padding-bottom: 7px;
 					color: $color_1;
 					letter-spacing: 1px;
-					font-size: 15px;
 					&--beforeTitleLine{
 						&:before{
 							left: 50%;
@@ -1103,7 +1103,6 @@
 					padding-bottom: 7px;
 					color: $color_12 !important;
 					letter-spacing: 1px;
-					font-size: 15px !important;
 					&--beforeTitleLine{
 						&:before{
 							left: 50% !important;
