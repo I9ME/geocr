@@ -16,7 +16,7 @@ get_header(); ?>
 	<?php get_template_part('template-parts/page/intro','page'); ?>
 	<?php get_template_part('template-parts/services/section','services') ?>
 	<?php get_template_part('template-parts/sobre/section','sobre') ?>
-<!-- 	<?php //get_template_part('template-parts/clientes/section','clientes') ?> -->
+	<?php get_template_part('template-parts/clientes/section','clientes') ?>
 	<?php get_template_part('template-parts/fale-conosco/section','fale-conosco') ?>
 	<?php get_template_part('template-parts/atendimento/section','atendimento') ?>
 </main><!-- #main -->
