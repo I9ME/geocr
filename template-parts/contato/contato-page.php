@@ -1,7 +1,7 @@
 <section class="Section Section--style1 Section--contatoPage u-paddingTop u-displayFlex u-flexJustifyContentCenter u-paddingBottom--inter u-paddingHorizontal u-paddingVertical">
 	<div class="u-displayFlex u-flexDirectionColumn u-flexJustifyContentCenter u-paddingVertical">
 	<header class="Section-header u-paddingBottom--inter--half u-sizeFull">
-		<h3 class="Section-header-title">Entre em contato com a gente!</h3>
+		<h1 class="Section-header-title">Entre em contato com a gente!</h1>
 	</header>
 	<div class="Section-content u-displayFlex u-flexJustifyContentCenter">
 		<ul class="Section-items u-displayFlex u-flexDirectionColumn u-flexJustifyContentSpaceBetween u-flexSwitchRow u-sizeFull">
@@ -10,8 +10,8 @@
 			</li>
 			<li class="Section-items-item u-size11of24 u-paddingTop--inter--half">
 				<header class="Section-items-item-header">
-					<h4 class="Section-items-item-header-title">Geocron</h4>
-					<h5 class="Section-items-item-header-subtitle">Sondagens e Soluções Ambientais</h5>
+					<h3 class="Section-items-item-header-title">Geocron</h3>
+					<h4 class="Section-items-item-header-subtitle">Sondagens e Soluções Ambientais</h4>
 				</header>
 				<div class="Section-items-item-content">
 					<p class="Section-items-item-content-resume u-paddingTop--inter--half">(85)98872-2675</p>

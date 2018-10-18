@@ -17,7 +17,7 @@
 
 get_header(); ?>
 <div id="main" class="SiteMain SiteMain--inter" role="main">
-	
+	<?php get_template_part('template-parts/page/intro','page'); ?>
 	<?php get_template_part('template-parts/sobre/sobre','page');?>
 
 

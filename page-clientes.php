@@ -18,7 +18,8 @@
 get_header(); ?>
 <div id="main" class="SiteMain SiteMain--inter" role="main">
 	<?php get_template_part('template-parts/page/intro','page'); ?>
-	<?php get_template_part('template-parts/contato/contato','page');?>
+	<?php get_template_part('template-parts/clientes/clientes','page');?>
+	<?php get_template_part('template-parts/fale-conosco/section','fale-conosco');?>
 
 
 	</main><!-- #main -->

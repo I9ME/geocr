@@ -1,3 +1,4 @@
+
 .owl-dots{
 	position:relative;
 	display: flex;
@@ -222,4 +223,9 @@ div.wpcf7 .ajax-loader{
     bottom: -35px;
     left: 50%;
     transform: translateX(-50%);
+}
+
+.owl-stage{
+	padding-bottom: 4%;
+    padding-top: 4%;
 }
